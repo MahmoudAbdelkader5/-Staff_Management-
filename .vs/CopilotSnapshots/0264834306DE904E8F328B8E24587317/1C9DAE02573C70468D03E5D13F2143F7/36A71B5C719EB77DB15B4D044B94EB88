@@ -1,0 +1,23 @@
+﻿@model Employee  // Change the model to the ViewModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create New Employee</h1>
+
+<form asp-action="Create" method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>  <!-- Display model-level errors -->
+
+    
+    <partial name="createAndeditPartialView" /> <!-- Pass the Employee to the partial -->
+
+    <div class="col-12">
+        <button class="btn btn-primary" type="submit">Submit</button>
+        <a class="btn btn-secondary" asp-action="Index">Cancel</a>
+    </div>
+</form>
+
+@section validation {
+    <partial name="_ValidationScriptsPartial">
+    }

@@ -1,0 +1,61 @@
+﻿@model employeeViewModel
+@{
+    var dep = new SelectList(ViewBag.depart, "id", "name").ToHashSet();
+}
+
+<div class="form-group">
+    @Html.LabelFor(m => m.Name)
+    @Html.TextBoxFor(m => m.Name, new { @class = "form-control mb-3", placeholder = "Enter employee name" })
+    @Html.ValidationMessageFor(m => m.Name, "", new { @class = "text-danger" })
+</div>
+<div class="form-group">
+    @Html.LabelFor(m => m.Age)
+    @Html.TextBoxFor(m => m.Age, new { @class = "form-control mb-3", placeholder = "Enter employee AGE" })
+    @Html.ValidationMessageFor(m => m.Age, "", new { @class = "text-danger" })
+</div>
+<div class="form-group">
+    @Html.LabelFor(m => m.Email)
+    @Html.TextBoxFor(m => m.Email, new { @class = "form-control mb-3", placeholder = "Enter employee email" })
+    @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+</div>
+<div class="form-group">
+    @Html.LabelFor(m => m.Address)
+    @Html.TextBoxFor(m => m.Address, new { @class = "form-control mb-3", placeholder = "Enter employee address" })
+    @Html.ValidationMessageFor(m => m.Address, "", new { @class = "text-danger" })
+</div>
+<div class="form-group">
+    @Html.LabelFor(m => m.Phone)
+    @Html.TextBoxFor(m => m.Phone, new { @class = "form-control mb-3", placeholder = "Enter employee phone number" })
+    @Html.ValidationMessageFor(m => m.Phone, "", new { @class = "text-danger" })
+</div>
+<div class="form-group">
+    @Html.LabelFor(m => m.Salary)
+    @Html.TextBoxFor(m => m.Salary, new { @class = "form-control mb-3", placeholder = "Enter employee salary" })
+    @Html.ValidationMessageFor(m => m.Salary, "", new { @class = "text-danger" })
+</div>
+<div class="form-group">
+    @Html.LabelFor(m => m.Image)
+    <input type="file" name="Imagefile" class="form-control mb-3" />
+</div>
+<div class="form-group">
+    @Html.LabelFor(m => m.Department)
+    <select class="form-control" asp-items="@dep" asp-for="DepartmentId">
+        <option value="@null">--- Select Department ---</option>
+    </select>
+    @Html.ValidationMessageFor(m => m.DepartmentId, "", new { @class = "text-danger" })
+</div>
+<div class="form-group">
+    @Html.LabelFor(m => m.CreationDate)
+    @Html.TextBoxFor(m => m.CreationDate, "{0:yyyy-MM-dd}", new { @class = "form-control mb-3", type = "date" })
+    @Html.ValidationMessageFor(m => m.CreationDate, "", new { @class = "text-danger" })
+</div>
+<div class="form-group">
+    @Html.LabelFor(m => m.HireDate)
+    @Html.TextBoxFor(m => m.HireDate, "{0:yyyy-MM-dd}", new { @class = "form-control mb-3", type = "date" })
+    @Html.ValidationMessageFor(m => m.HireDate, "", new { @class = "text-danger" })
+</div>
+<div class="form-group form-check">
+    @Html.CheckBoxFor(m => m.IsActive, new { @class = "form-check-input" })
+    @Html.LabelFor(m => m.IsActive, new { @class = "form-check-label" })
+    @Html.ValidationMessageFor(m => m.IsActive, "", new { @class = "text-danger" })
+</div>

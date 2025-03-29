@@ -1,0 +1,60 @@
+﻿@model Employee
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create New Employee</h1>
+
+<form asp-action="Create" method="post">
+
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Name)
+        @Html.TextBoxFor(m => m.Name, new { @class = "form-control mb-3", placeholder = "Enter employee name" })
+        @Html.DisplayFor(m => m.Name, "", new { @class = "text-danger" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Age)
+        @Html.TextBoxFor(m => m.Age, new { @class = "form-control mb-3", placeholder = "Enter employee name" })
+        @Html.DisplayFor(m => m.Age, "", new { @class = "text-danger" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Email)
+        @Html.TextBoxFor(m => m.Email, new { @class = "form-control mb-3", placeholder = "Enter employee email" })
+        @Html.DisplayFor(m => m.Email, "", new { @class = "text-danger" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Address)
+        @Html.TextBoxFor(m => m.Address, new { @class = "form-control mb-3", placeholder = "Enter employee address" })
+        @Html.DisplayFor(m => m.Address, "", new { @class = "text-danger" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Phone)
+        @Html.TextBoxFor(m => m.Phone, new { @class = "form-control mb-3", placeholder = "Enter employee phone number" })
+        @Html.DisplayFor(m => m.Phone, "", new { @class = "text-danger" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Salary)
+        @Html.TextBoxFor(m => m.Salary, new { @class = "form-control mb-3", placeholder = "Enter employee salary" })
+        @Html.DisplayFor(m => m.Salary, "", new { @class = "text-danger" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.CreationDate)
+        @Html.TextBoxFor(m => m.CreationDate, "{0:yyyy-MM-dd}", new { @class = "form-control mb-3", type = "date" })
+        @Html.DisplayFor(m => m.CreationDate, "", new { @class = "text-danger" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.HireTime)
+        @Html.TextBoxFor(m => m.HireTime, "{0:yyyy-MM-dd}", new { @class = "form-control mb-3", type = "date" })
+        @Html.DisplayFor(m => m.HireTime, "", new { @class = "text-danger" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.IsActive)
+        @Html.CheckBoxFor(m => m.IsActive, new { @class = "form-check-input mb-3" })
+        @Html.DisplayFor(m => m.IsActive, "", new { @class = "text-danger" })
+    </div>
+    <div class="col-12">
+        <button class="btn btn-primary" type="submit">Submit</button>
+        <a class="btn btn-secondary" asp-action="Index">Cancel</a>
+    </div>
+</form>

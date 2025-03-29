@@ -1,0 +1,29 @@
+﻿@model Department
+@{
+    ViewData["Title"] = "Edit Department";
+    Layout = "/Views/Shared/_Layout.cshtml"; // Ensure the layout file is used
+
+}
+
+
+<h3>Edit Department: @Model.name</h3>
+
+<form asp-action="Edit" method="post">
+    <partial name="createandEditDEPVIEW">
+
+    <div class="col-12">
+        <button class="btn btn-primary" type="submit">Update</button>
+        <a class="btn btn-secondary" asp-action="Index">Cancel</a>
+    </div>
+</form> 
+@* @section validation
+{
+<script src="~/lib/jquery-validation/dist/additional-methods.min.js"></script>
+<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+
+} *@
+@section validation {
+@*  <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+        <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script> *@
+    <partial name="_ValidationScriptsPartial">
+ }

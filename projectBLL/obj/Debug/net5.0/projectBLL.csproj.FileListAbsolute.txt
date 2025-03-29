@@ -1,0 +1,30 @@
+C:\Users\master\source\repos\WebApplication8\projectBLL\bin\Debug\net5.0\projectBLL.deps.json
+C:\Users\master\source\repos\WebApplication8\projectBLL\bin\Debug\net5.0\projectBLL.dll
+C:\Users\master\source\repos\WebApplication8\projectBLL\bin\Debug\net5.0\projectBLL.pdb
+C:\Users\master\source\repos\WebApplication8\projectBLL\bin\Debug\net5.0\data Access layer.dll
+C:\Users\master\source\repos\WebApplication8\projectBLL\bin\Debug\net5.0\data Access layer.pdb
+C:\Users\master\source\repos\WebApplication8\projectBLL\obj\Debug\net5.0\projectBLL.csproj.AssemblyReference.cache
+C:\Users\master\source\repos\WebApplication8\projectBLL\obj\Debug\net5.0\projectBLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\master\source\repos\WebApplication8\projectBLL\obj\Debug\net5.0\projectBLL.AssemblyInfoInputs.cache
+C:\Users\master\source\repos\WebApplication8\projectBLL\obj\Debug\net5.0\projectBLL.AssemblyInfo.cs
+C:\Users\master\source\repos\WebApplication8\projectBLL\obj\Debug\net5.0\projectBLL.csproj.CoreCompileInputs.cache
+C:\Users\master\source\repos\WebApplication8\projectBLL\obj\Debug\net5.0\projectBLL.csproj.Up2Date
+C:\Users\master\source\repos\WebApplication8\projectBLL\obj\Debug\net5.0\projectBLL.dll
+C:\Users\master\source\repos\WebApplication8\projectBLL\obj\Debug\net5.0\refint\projectBLL.dll
+C:\Users\master\source\repos\WebApplication8\projectBLL\obj\Debug\net5.0\projectBLL.pdb
+C:\Users\master\source\repos\WebApplication8\projectBLL\obj\Debug\net5.0\ref\projectBLL.dll
+C:\Users\master\source\repos\crudOp\projectBLL\bin\Debug\net5.0\projectBLL.deps.json
+C:\Users\master\source\repos\crudOp\projectBLL\bin\Debug\net5.0\projectBLL.dll
+C:\Users\master\source\repos\crudOp\projectBLL\bin\Debug\net5.0\projectBLL.pdb
+C:\Users\master\source\repos\crudOp\projectBLL\bin\Debug\net5.0\data Access layer.dll
+C:\Users\master\source\repos\crudOp\projectBLL\bin\Debug\net5.0\data Access layer.pdb
+C:\Users\master\source\repos\crudOp\projectBLL\obj\Debug\net5.0\projectBLL.csproj.AssemblyReference.cache
+C:\Users\master\source\repos\crudOp\projectBLL\obj\Debug\net5.0\projectBLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\master\source\repos\crudOp\projectBLL\obj\Debug\net5.0\projectBLL.AssemblyInfoInputs.cache
+C:\Users\master\source\repos\crudOp\projectBLL\obj\Debug\net5.0\projectBLL.AssemblyInfo.cs
+C:\Users\master\source\repos\crudOp\projectBLL\obj\Debug\net5.0\projectBLL.csproj.CoreCompileInputs.cache
+C:\Users\master\source\repos\crudOp\projectBLL\obj\Debug\net5.0\projectBLL.csproj.Up2Date
+C:\Users\master\source\repos\crudOp\projectBLL\obj\Debug\net5.0\projectBLL.dll
+C:\Users\master\source\repos\crudOp\projectBLL\obj\Debug\net5.0\refint\projectBLL.dll
+C:\Users\master\source\repos\crudOp\projectBLL\obj\Debug\net5.0\projectBLL.pdb
+C:\Users\master\source\repos\crudOp\projectBLL\obj\Debug\net5.0\ref\projectBLL.dll

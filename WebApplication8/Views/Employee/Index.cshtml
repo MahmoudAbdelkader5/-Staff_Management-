@@ -1,0 +1,212 @@
+﻿@model IEnumerable<employeeViewModel>
+@{
+    ViewData["Title"] = "Employee Management";
+}
+
+<div class="container-fluid px-4">
+    <!-- Flash Message -->
+    @if (TempData["message"] != null)
+    {
+        <div id="flashMessage" class="alert alert-success alert-dismissible fade show shadow-sm mb-4" role="alert">
+            <div class="d-flex align-items-center">
+                <i class="fas fa-check-circle me-2"></i>
+                <div>@TempData["message"]</div>
+                <button type="button" class="btn-close ms-auto" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        </div>
+    }
+
+    <!-- Page Header -->
+    <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-center mb-4">
+        <div class="mb-3 mb-md-0">
+            <h1 class="h2 mb-1">
+                <i class="fas fa-users me-2 text-primary"></i>Employee Management
+            </h1>
+            <p class="text-muted mb-0">View and manage all employee records</p>
+        </div>
+        <div>
+            <a class="btn btn-primary" asp-action="Create">
+                <i class="fas fa-plus-circle me-2"></i>Add New Employee
+            </a>
+        </div>
+    </div>
+
+    <!-- Search and Filter Card -->
+    <div class="card shadow-sm mb-4">
+        <div class="card-body">
+            <form asp-action="Index" class="row g-3">
+                <div class="col-md-8">
+                    <div class="input-group">
+                        <span class="input-group-text bg-transparent">
+                            <i class="fas fa-search text-muted"></i>
+                        </span>
+                        <input type="search" class="form-control" placeholder="Search employees..." name="search">
+                        <button class="btn btn-primary" type="submit">
+                            <i class="fas fa-filter me-1"></i>Filter
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Employee Table Card -->
+    <div class="card shadow-sm">
+        <div class="card-body p-0">
+            @if (Model != null && Model.Any())
+            {
+                <div class="table-responsive">
+                    <table class="table table-hover mb-0">
+                        <thead class="table-light">
+                            <tr>
+                                <th class="ps-4">ID</th>
+                                <th>Image</th>
+                                <th>Employee</th>
+                                <th>Department</th>
+                                <th>Contact</th>
+                                <th>Status</th>
+                                <th>Salary</th>
+                                <th class="text-end pe-4">Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var emp in Model)
+                            {
+                                <tr>
+                                    <td class="ps-4 fw-semibold align-middle">#@emp.Id</td>
+                                    <td class="align-middle">
+                                        <img src="~/files/images/@emp.Image" class="employee-image" alt="@emp.Name" />
+                                    </td>
+                                    <td class="align-middle">
+                                        <div class="d-flex align-items-center">
+                                            <div>
+                                                <div class="fw-semibold">@emp.Name</div>
+                                                <small class="text-muted">@emp.Age years</small>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="align-middle">
+                                        <span class="badge bg-light text-dark">
+                                            @(emp.Department?.name ?? "N/A")
+                                        </span>
+                                    </td>
+                                    <td class="align-middle">
+                                        <div>@emp.Email</div>
+                                        <small class="text-muted">@emp.Phone</small>
+                                    </td>
+                                    <td class="align-middle">
+                                        <span class="badge @(emp.IsActive ? "bg-success" : "bg-secondary") rounded-pill">
+                                            <i class="fas @(emp.IsActive ? "fa-check-circle" : "fa-times-circle") me-1"></i>
+                                            @(emp.IsActive ? "Active" : "Inactive")
+                                        </span>
+                                    </td>
+                                    <td class="text-nowrap align-middle">
+                                        @emp.Salary.ToString("C")
+                                    </td>
+                                    <td class="text-end pe-4 align-middle">
+                                        <div class="btn-group btn-group-sm" role="group">
+                                            <a asp-action="Details" asp-route-id="@emp.Id"
+                                               class="btn btn-outline-primary" data-bs-toggle="tooltip" title="View Details">
+                                                <i class="fas fa-eye"></i>
+                                            </a>
+                                            <a asp-action="Edit" asp-route-id="@emp.Id"
+                                               class="btn btn-outline-warning" data-bs-toggle="tooltip" title="Edit">
+                                                <i class="fas fa-edit"></i>
+                                            </a>
+                                            <form asp-action="Delete" asp-route-id="@emp.Id" method="post" class="d-inline">
+                                                @Html.AntiForgeryToken()
+                                                <button type="submit" class="btn btn-outline-danger"
+                                                        data-bs-toggle="tooltip" title="Delete"
+                                                        onclick="return confirm('Are you sure you want to delete @emp.Name?')">
+                                                    <i class="fas fa-trash-alt"></i>
+                                                </button>
+                                            </form>
+                                        </div>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            }
+            else
+            {
+                <div class="text-center py-5">
+                    <div class="mb-3">
+                        <i class="fas fa-user-slash fa-3x text-muted"></i>
+                    </div>
+                    <h5 class="text-muted">No employees found</h5>
+                    <p class="text-muted">Try adjusting your search or add a new employee</p>
+                    <a asp-action="Create" class="btn btn-primary mt-3">
+                        <i class="fas fa-plus-circle me-2"></i>Add Employee
+                    </a>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        // Flash message fade out
+        setTimeout(() => {
+            const flashMsg = document.getElementById('flashMessage');
+            if (flashMsg) {
+                flashMsg.classList.add('fade');
+                setTimeout(() => flashMsg.remove(), 150);
+            }
+        }, 5000);
+
+        // Enable tooltips
+        document.addEventListener('DOMContentLoaded', function() {
+            const tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+            tooltipTriggerList.map(function (tooltipTriggerEl) {
+                return new bootstrap.Tooltip(tooltipTriggerEl);
+            });
+        });
+    </script>
+}
+
+<style>
+    /* Employee image styling */
+    .employee-image {
+        width: 90px;
+        height: 90px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 2px solid #e9ecef;
+    }
+
+    /* Table row hover effect */
+    .table-hover tbody tr {
+        transition: all 0.2s ease;
+    }
+
+        .table-hover tbody tr:hover {
+            background-color: rgba(0, 0, 0, 0.02);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        }
+
+    /* Badge styling */
+    .badge.rounded-pill {
+        padding: 0.35em 0.65em;
+        font-weight: 500;
+    }
+
+    /* Vertical alignment for table cells */
+    .table td.align-middle {
+        vertical-align: middle;
+    }
+
+    /* Action buttons spacing */
+    .btn-group-sm > .btn,
+    .btn-group-sm > .form-control,
+    .btn-group-sm > .input-group-text {
+        padding: 0.25rem 0.5rem;
+    }
+
+    /* Department badge */
+    .badge.bg-light {
+        border: 1px solid #dee2e6;
+    }
+</style>

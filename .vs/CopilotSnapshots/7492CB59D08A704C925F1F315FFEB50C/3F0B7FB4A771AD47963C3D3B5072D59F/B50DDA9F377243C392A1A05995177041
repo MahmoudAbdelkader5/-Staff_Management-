@@ -1,0 +1,11 @@
+﻿using data_Access_layer.model;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+
+namespace projectBLL.interfaces
+{
+    public interface IemployeeRepo: IgenericRepo<Employee>
+    {
+        
+    }
+}
