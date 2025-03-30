@@ -1,6 +1,10 @@
-﻿@model employeeViewModel
+﻿
+@model employeeViewModel
 @{
     var dep = new SelectList(ViewBag.depart, "id", "name").ToHashSet();
+}
+@{
+    Layout = "_Layout";
 }
 
 <div class="form-group">

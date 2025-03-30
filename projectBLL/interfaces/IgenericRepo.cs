@@ -7,14 +7,16 @@ using System.Threading.Tasks;
 
 namespace projectBLL.interfaces
 {
-    public interface IgenericRepo<T>
+    public interface IGenericRepo<T>
     {
-         IEnumerable<T> GetAll();
+        Task<IEnumerable<T>> GetAllAsync(); // Corrected method name to `GetAllAsync` for clarity  
 
-        T getbyid(int id);
-        public void add(T dep);
+        Task<T> GetByIdAsync(int id); // Added return type and corrected name to `GetByIdAsync`  
 
-        public void update(T dep);
-        public void delete(T dep);
+        Task AddAsync(T entity); // Standardized method name to `AddAsync`  
+
+        void UpdateAsync(T entity); 
+
+        void DeleteAsync(T entity);
     }
 }

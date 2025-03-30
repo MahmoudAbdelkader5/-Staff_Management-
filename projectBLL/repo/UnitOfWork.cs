@@ -24,9 +24,9 @@ namespace projectBLL.repo
         }
 
         // You should implement a Save method that commits changes to the database   
-        public int Save()
+        public Task<int> Save()
         {
-            return dbcontext.SaveChanges(); // Assuming dbcontext has SaveChanges method  
+            return dbcontext.SaveChangesAsync(); // Assuming dbcontext has SaveChanges method  
         }
 
         public void Dispose()

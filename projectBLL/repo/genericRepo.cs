@@ -10,40 +10,40 @@ using System.Threading.Tasks;
 
 namespace projectBLL.repo
 {
-    public class genericRepo<T> : IgenericRepo<T> where T : class
+    public class genericRepo<T> : IGenericRepo<T> where T : class
     {
         private readonly mvcAppDbcontext _context;
         public genericRepo(mvcAppDbcontext context)
         {
             _context = context;
         }
-        public void add(T item)
+        public async Task AddAsync(T item)
         {
            
-            _context.Add(item);
+            await _context.AddAsync(item);
         }
 
-        public void delete(T item)
+        public void DeleteAsync(T item)
         {
             _context.Remove(item);
         }
 
-        public IEnumerable<T> GetAll()
+        public async Task<IEnumerable<T>> GetAllAsync()
         {
             if(typeof(T)==typeof(Employee))
             return (IEnumerable<T>) _context.Employees.Include(d=>d.Department).ToList();
             else
             {
-                return _context.Set<T>();
+                return await _context.Set<T>().ToListAsync();
             }
         }
 
-        public T getbyid(int id)
+        public async Task<T> GetByIdAsync(int id)
         {
-            return _context.Set<T>().Find(id);
+            return await _context.Set<T>().FindAsync(id);
         }
 
-        public void update(T item)
+        public void UpdateAsync(T item)
         {
             _context.Update(item);
         }

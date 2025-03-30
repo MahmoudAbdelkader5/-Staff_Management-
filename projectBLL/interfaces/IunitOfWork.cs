@@ -10,6 +10,6 @@ namespace projectBLL.interfaces
     {
         public IDepartmentRepo departmentRepo { get; set; }
         public IEmployeeRepo employeeRepo { get; set; }
-        int Save();
+        Task<int> Save();
     }
 }

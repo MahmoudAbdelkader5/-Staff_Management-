@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace projectBLL.interfaces
 {
-    public interface IEmployeeRepo : IgenericRepo<Employee>
+    public interface IEmployeeRepo : IGenericRepo<Employee>
     {
         public IQueryable<Employee> SearchEmployees(string search);
 

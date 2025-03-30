@@ -1,200 +1,130 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\master\\source\\repos\\crudOp\\",
+  "WorkspaceRootPath": "E:\\route\\05 MVC\\DashboardMVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|c:\\users\\master\\source\\repos\\crudop\\webapplication8\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|solutionrelative:webapplication8\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|e:\\route\\05 mvc\\dashboardmvc\\webapplication8\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|solutionrelative:webapplication8\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|c:\\users\\master\\source\\repos\\crudop\\webapplication8\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|solutionrelative:webapplication8\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|c:\\users\\master\\source\\repos\\crudop\\webapplication8\\views\\employee\\createandeditpartialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|solutionrelative:webapplication8\\views\\employee\\createandeditpartialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|c:\\users\\master\\source\\repos\\crudop\\webapplication8\\helperclass\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|solutionrelative:webapplication8\\helperclass\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|c:\\users\\master\\source\\repos\\crudop\\webapplication8\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|solutionrelative:webapplication8\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|c:\\users\\master\\source\\repos\\crudop\\webapplication8\\models\\employeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|solutionrelative:webapplication8\\models\\employeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|c:\\users\\master\\source\\repos\\crudop\\webapplication8\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|solutionrelative:webapplication8\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|c:\\users\\master\\source\\repos\\crudop\\webapplication8\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|solutionrelative:webapplication8\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{201C054C-B89A-46E6-8409-5595606B5F81}|projectBLL\\projectBLL.csproj|c:\\users\\master\\source\\repos\\crudop\\projectbll\\repo\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{201C054C-B89A-46E6-8409-5595606B5F81}|projectBLL\\projectBLL.csproj|solutionrelative:projectbll\\repo\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{201C054C-B89A-46E6-8409-5595606B5F81}|projectBLL\\projectBLL.csproj|c:\\users\\master\\source\\repos\\crudop\\projectbll\\repo\\genericrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{201C054C-B89A-46E6-8409-5595606B5F81}|projectBLL\\projectBLL.csproj|solutionrelative:projectbll\\repo\\genericrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{201C054C-B89A-46E6-8409-5595606B5F81}|projectBLL\\projectBLL.csproj|c:\\users\\master\\source\\repos\\crudop\\projectbll\\interfaces\\igenericrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{201C054C-B89A-46E6-8409-5595606B5F81}|projectBLL\\projectBLL.csproj|solutionrelative:projectbll\\interfaces\\igenericrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{201C054C-B89A-46E6-8409-5595606B5F81}|projectBLL\\projectBLL.csproj|c:\\users\\master\\source\\repos\\crudop\\projectbll\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{201C054C-B89A-46E6-8409-5595606B5F81}|projectBLL\\projectBLL.csproj|solutionrelative:projectbll\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{201C054C-B89A-46E6-8409-5595606B5F81}|projectBLL\\projectBLL.csproj|c:\\users\\master\\source\\repos\\crudop\\projectbll\\interfaces\\iemployeerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{201C054C-B89A-46E6-8409-5595606B5F81}|projectBLL\\projectBLL.csproj|solutionrelative:projectbll\\interfaces\\iemployeerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{201C054C-B89A-46E6-8409-5595606B5F81}|projectBLL\\projectBLL.csproj|c:\\users\\master\\source\\repos\\crudop\\projectbll\\interfaces\\idepartmentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{201C054C-B89A-46E6-8409-5595606B5F81}|projectBLL\\projectBLL.csproj|solutionrelative:projectbll\\interfaces\\idepartmentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2EDD9A65-6536-4637-B235-4D29DC35405E}|data Access layer\\data Access layer.csproj|c:\\users\\master\\source\\repos\\crudop\\data access layer\\model\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2EDD9A65-6536-4637-B235-4D29DC35405E}|data Access layer\\data Access layer.csproj|solutionrelative:data access layer\\model\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2EDD9A65-6536-4637-B235-4D29DC35405E}|data Access layer\\data Access layer.csproj|c:\\users\\master\\source\\repos\\crudop\\data access layer\\model\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2EDD9A65-6536-4637-B235-4D29DC35405E}|data Access layer\\data Access layer.csproj|solutionrelative:data access layer\\model\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|c:\\users\\master\\source\\repos\\crudop\\webapplication8\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|solutionrelative:webapplication8\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|c:\\users\\master\\source\\repos\\crudop\\webapplication8\\views\\department\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|solutionrelative:webapplication8\\views\\department\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|c:\\users\\master\\source\\repos\\crudop\\webapplication8\\views\\department\\createandeditdepview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|solutionrelative:webapplication8\\views\\department\\createandeditdepview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|c:\\users\\master\\source\\repos\\crudop\\webapplication8\\mappingprofile\\employeeprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|solutionrelative:webapplication8\\mappingprofile\\employeeprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|c:\\users\\master\\source\\repos\\crudop\\webapplication8\\views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|solutionrelative:webapplication8\\views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|c:\\users\\master\\source\\repos\\crudop\\webapplication8\\views\\shared\\_buttonspartailview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|solutionrelative:webapplication8\\views\\shared\\_buttonspartailview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|c:\\users\\master\\source\\repos\\crudop\\webapplication8\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|e:\\route\\05 mvc\\dashboardmvc\\webapplication8\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|solutionrelative:webapplication8\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|c:\\users\\master\\source\\repos\\crudop\\webapplication8\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|solutionrelative:webapplication8\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|e:\\route\\05 mvc\\dashboardmvc\\webapplication8\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|solutionrelative:webapplication8\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|c:\\users\\master\\source\\repos\\crudop\\webapplication8\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|solutionrelative:webapplication8\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|e:\\route\\05 mvc\\dashboardmvc\\webapplication8\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|solutionrelative:webapplication8\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|c:\\users\\master\\source\\repos\\crudop\\webapplication8\\views\\department\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|solutionrelative:webapplication8\\views\\department\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|e:\\route\\05 mvc\\dashboardmvc\\webapplication8\\views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|solutionrelative:webapplication8\\views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2EDD9A65-6536-4637-B235-4D29DC35405E}|data Access layer\\data Access layer.csproj|c:\\users\\master\\source\\repos\\crudop\\data access layer\\context\\mvcappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2EDD9A65-6536-4637-B235-4D29DC35405E}|data Access layer\\data Access layer.csproj|solutionrelative:data access layer\\context\\mvcappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|e:\\route\\05 mvc\\dashboardmvc\\webapplication8\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|solutionrelative:webapplication8\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.EolTargetFrameworks.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|e:\\route\\05 mvc\\dashboardmvc\\webapplication8\\views\\shared\\from.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|solutionrelative:webapplication8\\views\\shared\\from.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|c:\\users\\master\\source\\repos\\crudop\\webapplication8\\models\\departmentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|solutionrelative:webapplication8\\models\\departmentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|e:\\route\\05 mvc\\dashboardmvc\\webapplication8\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|solutionrelative:webapplication8\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|c:\\users\\master\\source\\repos\\crudop\\webapplication8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|solutionrelative:webapplication8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{201C054C-B89A-46E6-8409-5595606B5F81}|projectBLL\\projectBLL.csproj|c:\\users\\master\\source\\repos\\crudop\\projectbll\\repo\\employeerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{201C054C-B89A-46E6-8409-5595606B5F81}|projectBLL\\projectBLL.csproj|solutionrelative:projectbll\\repo\\employeerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|c:\\users\\master\\source\\repos\\crudop\\webapplication8\\views\\employee\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|solutionrelative:webapplication8\\views\\employee\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|c:\\users\\master\\source\\repos\\crudop\\webapplication8\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|solutionrelative:webapplication8\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|c:\\users\\master\\source\\repos\\crudop\\webapplication8\\webapplication8.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|solutionrelative:webapplication8\\webapplication8.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{201C054C-B89A-46E6-8409-5595606B5F81}|projectBLL\\projectBLL.csproj|c:\\users\\master\\source\\repos\\crudop\\projectbll\\projectbll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{201C054C-B89A-46E6-8409-5595606B5F81}|projectBLL\\projectBLL.csproj|solutionrelative:projectbll\\projectbll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|c:\\users\\master\\source\\repos\\crudop\\webapplication8\\views\\department\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|solutionrelative:webapplication8\\views\\department\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|c:\\users\\master\\source\\repos\\crudop\\webapplication8\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|e:\\route\\05 mvc\\dashboardmvc\\webapplication8\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|solutionrelative:webapplication8\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{201C054C-B89A-46E6-8409-5595606B5F81}|projectBLL\\projectBLL.csproj|c:\\users\\master\\source\\repos\\crudop\\projectbll\\repo\\departmentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{201C054C-B89A-46E6-8409-5595606B5F81}|projectBLL\\projectBLL.csproj|solutionrelative:projectbll\\repo\\departmentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|e:\\route\\05 mvc\\dashboardmvc\\webapplication8\\views\\department\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|solutionrelative:webapplication8\\views\\department\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|c:\\users\\master\\source\\repos\\crudop\\webapplication8\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|solutionrelative:webapplication8\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|e:\\route\\05 mvc\\dashboardmvc\\webapplication8\\views\\department\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|solutionrelative:webapplication8\\views\\department\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|c:\\users\\master\\source\\repos\\crudop\\webapplication8\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|solutionrelative:webapplication8\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|e:\\route\\05 mvc\\dashboardmvc\\webapplication8\\views\\department\\createandeditdepview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|solutionrelative:webapplication8\\views\\department\\createandeditdepview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|c:\\users\\master\\source\\repos\\crudop\\webapplication8\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|solutionrelative:webapplication8\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|e:\\route\\05 mvc\\dashboardmvc\\webapplication8\\views\\department\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|solutionrelative:webapplication8\\views\\department\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2EDD9A65-6536-4637-B235-4D29DC35405E}|data Access layer\\data Access layer.csproj|c:\\users\\master\\source\\repos\\crudop\\data access layer\\migrations\\20250306023713_initemp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2EDD9A65-6536-4637-B235-4D29DC35405E}|data Access layer\\data Access layer.csproj|solutionrelative:data access layer\\migrations\\20250306023713_initemp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|e:\\route\\05 mvc\\dashboardmvc\\webapplication8\\views\\employee\\createandeditpartialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|solutionrelative:webapplication8\\views\\employee\\createandeditpartialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2EDD9A65-6536-4637-B235-4D29DC35405E}|data Access layer\\data Access layer.csproj|c:\\users\\master\\source\\repos\\crudop\\data access layer\\migrations\\20250305125043_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2EDD9A65-6536-4637-B235-4D29DC35405E}|data Access layer\\data Access layer.csproj|solutionrelative:data access layer\\migrations\\20250305125043_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|e:\\route\\05 mvc\\dashboardmvc\\webapplication8\\views\\employee\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|solutionrelative:webapplication8\\views\\employee\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2EDD9A65-6536-4637-B235-4D29DC35405E}|data Access layer\\data Access layer.csproj|c:\\users\\master\\source\\repos\\crudop\\data access layer\\migrations\\20250305124720_add-rel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2EDD9A65-6536-4637-B235-4D29DC35405E}|data Access layer\\data Access layer.csproj|solutionrelative:data access layer\\migrations\\20250305124720_add-rel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|e:\\route\\05 mvc\\dashboardmvc\\webapplication8\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|solutionrelative:webapplication8\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2EDD9A65-6536-4637-B235-4D29DC35405E}|data Access layer\\data Access layer.csproj|c:\\users\\master\\source\\repos\\crudop\\data access layer\\migrations\\20250302204814_addemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2EDD9A65-6536-4637-B235-4D29DC35405E}|data Access layer\\data Access layer.csproj|solutionrelative:data access layer\\migrations\\20250302204814_addemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|e:\\route\\05 mvc\\dashboardmvc\\webapplication8\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|solutionrelative:webapplication8\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|c:\\users\\master\\source\\repos\\crudop\\webapplication8\\webapplication8.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|solutionrelative:webapplication8\\webapplication8.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|e:\\route\\05 mvc\\dashboardmvc\\webapplication8\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|solutionrelative:webapplication8\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|c:\\users\\master\\source\\repos\\crudop\\webapplication8\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|solutionrelative:webapplication8\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|e:\\route\\05 mvc\\dashboardmvc\\webapplication8\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|solutionrelative:webapplication8\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{201C054C-B89A-46E6-8409-5595606B5F81}|projectBLL\\projectBLL.csproj|c:\\users\\master\\source\\repos\\crudop\\projectbll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{201C054C-B89A-46E6-8409-5595606B5F81}|projectBLL\\projectBLL.csproj|solutionrelative:projectbll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|e:\\route\\05 mvc\\dashboardmvc\\webapplication8\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|solutionrelative:webapplication8\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\route\\Html.Css.Js\\week8\\crud\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|e:\\route\\05 mvc\\dashboardmvc\\webapplication8\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|solutionrelative:webapplication8\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|e:\\route\\05 mvc\\dashboardmvc\\webapplication8\\models\\employeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|solutionrelative:webapplication8\\models\\employeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|e:\\route\\05 mvc\\dashboardmvc\\webapplication8\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|solutionrelative:webapplication8\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|e:\\route\\05 mvc\\dashboardmvc\\webapplication8\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|solutionrelative:webapplication8\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|e:\\route\\05 mvc\\dashboardmvc\\webapplication8\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|solutionrelative:webapplication8\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EDD9A65-6536-4637-B235-4D29DC35405E}|data Access layer\\data Access layer.csproj|e:\\route\\05 mvc\\dashboardmvc\\data access layer\\migrations\\20250330180849_customuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EDD9A65-6536-4637-B235-4D29DC35405E}|data Access layer\\data Access layer.csproj|solutionrelative:data access layer\\migrations\\20250330180849_customuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EDD9A65-6536-4637-B235-4D29DC35405E}|data Access layer\\data Access layer.csproj|e:\\route\\05 mvc\\dashboardmvc\\data access layer\\context\\mvcappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EDD9A65-6536-4637-B235-4D29DC35405E}|data Access layer\\data Access layer.csproj|solutionrelative:data access layer\\context\\mvcappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EDD9A65-6536-4637-B235-4D29DC35405E}|data Access layer\\data Access layer.csproj|e:\\route\\05 mvc\\dashboardmvc\\data access layer\\model\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EDD9A65-6536-4637-B235-4D29DC35405E}|data Access layer\\data Access layer.csproj|solutionrelative:data access layer\\model\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|e:\\route\\05 mvc\\dashboardmvc\\webapplication8\\views\\shared\\_buttonspartailview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4214652A-5447-439B-A06B-C0A7B3B00ED8}|WebApplication8\\WebApplication8.csproj|solutionrelative:webapplication8\\views\\shared\\_buttonspartailview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EDD9A65-6536-4637-B235-4D29DC35405E}|data Access layer\\data Access layer.csproj|e:\\route\\05 mvc\\dashboardmvc\\data access layer\\migrations\\20250330014223_create identity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EDD9A65-6536-4637-B235-4D29DC35405E}|data Access layer\\data Access layer.csproj|solutionrelative:data access layer\\migrations\\20250330014223_create identity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EDD9A65-6536-4637-B235-4D29DC35405E}|data Access layer\\data Access layer.csproj|e:\\route\\05 mvc\\dashboardmvc\\data access layer\\data access layer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2EDD9A65-6536-4637-B235-4D29DC35405E}|data Access layer\\data Access layer.csproj|solutionrelative:data access layer\\data access layer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -204,22 +134,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 9,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DepartmentController.cs",
-              "DocumentMoniker": "C:\\Users\\master\\source\\repos\\crudOp\\WebApplication8\\Controllers\\DepartmentController.cs",
-              "RelativeDocumentMoniker": "WebApplication8\\Controllers\\DepartmentController.cs",
-              "ToolTip": "C:\\Users\\master\\source\\repos\\crudOp\\WebApplication8\\Controllers\\DepartmentController.cs",
-              "RelativeToolTip": "WebApplication8\\Controllers\\DepartmentController.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T22:58:10.091Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
@@ -234,591 +150,382 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\master\\source\\repos\\crudOp\\WebApplication8\\Views\\Employee\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebApplication8\\Views\\Employee\\Index.cshtml",
-              "ToolTip": "C:\\Users\\master\\source\\repos\\crudOp\\WebApplication8\\Views\\Employee\\Index.cshtml",
-              "RelativeToolTip": "WebApplication8\\Views\\Employee\\Index.cshtml",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAAAK0AAAARAAAAAAAAAA==",
+              "DocumentMoniker": "E:\\route\\05 MVC\\DashboardMVC\\WebApplication8\\Views\\Department\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication8\\Views\\Department\\Index.cshtml",
+              "ToolTip": "E:\\route\\05 MVC\\DashboardMVC\\WebApplication8\\Views\\Department\\Index.cshtml",
+              "RelativeToolTip": "WebApplication8\\Views\\Department\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-05T05:13:59.535Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "helper.cs",
-              "DocumentMoniker": "C:\\Users\\master\\source\\repos\\crudOp\\WebApplication8\\HelperClass\\helper.cs",
-              "RelativeDocumentMoniker": "WebApplication8\\HelperClass\\helper.cs",
-              "ToolTip": "C:\\Users\\master\\source\\repos\\crudOp\\WebApplication8\\HelperClass\\helper.cs",
-              "RelativeToolTip": "WebApplication8\\HelperClass\\helper.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAABcAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T09:38:03.256Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EmployeeController.cs",
-              "DocumentMoniker": "C:\\Users\\master\\source\\repos\\crudOp\\WebApplication8\\Controllers\\EmployeeController.cs",
-              "RelativeDocumentMoniker": "WebApplication8\\Controllers\\EmployeeController.cs",
-              "ToolTip": "C:\\Users\\master\\source\\repos\\crudOp\\WebApplication8\\Controllers\\EmployeeController.cs",
-              "RelativeToolTip": "WebApplication8\\Controllers\\EmployeeController.cs",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAAAGsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T04:11:59.256Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\master\\source\\repos\\crudOp\\WebApplication8\\Views\\Employee\\Edit.cshtml",
-              "RelativeDocumentMoniker": "WebApplication8\\Views\\Employee\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\master\\source\\repos\\crudOp\\WebApplication8\\Views\\Employee\\Edit.cshtml",
-              "RelativeToolTip": "WebApplication8\\Views\\Employee\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-05T06:50:02.127Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "employeeViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\master\\source\\repos\\crudOp\\WebApplication8\\Models\\employeeViewModel.cs",
-              "RelativeDocumentMoniker": "WebApplication8\\Models\\employeeViewModel.cs",
-              "ToolTip": "C:\\Users\\master\\source\\repos\\crudOp\\WebApplication8\\Models\\employeeViewModel.cs",
-              "RelativeToolTip": "WebApplication8\\Models\\employeeViewModel.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAAAC8AAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T10:11:09.425Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "createAndeditPartialView.cshtml",
-              "DocumentMoniker": "C:\\Users\\master\\source\\repos\\crudOp\\WebApplication8\\Views\\Employee\\createAndeditPartialView.cshtml",
-              "RelativeDocumentMoniker": "WebApplication8\\Views\\Employee\\createAndeditPartialView.cshtml",
-              "ToolTip": "C:\\Users\\master\\source\\repos\\crudOp\\WebApplication8\\Views\\Employee\\createAndeditPartialView.cshtml",
-              "RelativeToolTip": "WebApplication8\\Views\\Employee\\createAndeditPartialView.cshtml",
-              "ViewState": "AgIAABwAAAAAAAAAAAAAACUAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-05T12:13:13.891Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "C:\\Users\\master\\source\\repos\\crudOp\\WebApplication8\\Startup.cs",
-              "RelativeDocumentMoniker": "WebApplication8\\Startup.cs",
-              "ToolTip": "C:\\Users\\master\\source\\repos\\crudOp\\WebApplication8\\Startup.cs",
-              "RelativeToolTip": "WebApplication8\\Startup.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T04:45:27.302Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "C:\\Users\\master\\source\\repos\\crudOp\\projectBLL\\repo\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "projectBLL\\repo\\UnitOfWork.cs",
-              "ToolTip": "C:\\Users\\master\\source\\repos\\crudOp\\projectBLL\\repo\\UnitOfWork.cs",
-              "RelativeToolTip": "projectBLL\\repo\\UnitOfWork.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAACEAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T05:16:36.328Z",
+              "WhenOpened": "2025-03-30T21:14:42.915Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "genericRepo.cs",
-              "DocumentMoniker": "C:\\Users\\master\\source\\repos\\crudOp\\projectBLL\\repo\\genericRepo.cs",
-              "RelativeDocumentMoniker": "projectBLL\\repo\\genericRepo.cs",
-              "ToolTip": "C:\\Users\\master\\source\\repos\\crudOp\\projectBLL\\repo\\genericRepo.cs",
-              "RelativeToolTip": "projectBLL\\repo\\genericRepo.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T22:08:15.496Z",
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\route\\05 MVC\\DashboardMVC\\WebApplication8\\Views\\Department\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WebApplication8\\Views\\Department\\Edit.cshtml",
+              "ToolTip": "E:\\route\\05 MVC\\DashboardMVC\\WebApplication8\\Views\\Department\\Edit.cshtml",
+              "RelativeToolTip": "WebApplication8\\Views\\Department\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-30T21:14:36.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "from.cshtml",
+              "DocumentMoniker": "E:\\route\\05 MVC\\DashboardMVC\\WebApplication8\\Views\\Shared\\from.cshtml",
+              "RelativeDocumentMoniker": "WebApplication8\\Views\\Shared\\from.cshtml",
+              "ToolTip": "E:\\route\\05 MVC\\DashboardMVC\\WebApplication8\\Views\\Shared\\from.cshtml",
+              "RelativeToolTip": "WebApplication8\\Views\\Shared\\from.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-30T15:17:13.159Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IgenericRepo.cs",
-              "DocumentMoniker": "C:\\Users\\master\\source\\repos\\crudOp\\projectBLL\\interfaces\\IgenericRepo.cs",
-              "RelativeDocumentMoniker": "projectBLL\\interfaces\\IgenericRepo.cs",
-              "ToolTip": "C:\\Users\\master\\source\\repos\\crudOp\\projectBLL\\interfaces\\IgenericRepo.cs",
-              "RelativeToolTip": "projectBLL\\interfaces\\IgenericRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T22:05:21.265Z",
+              "DocumentIndex": 3,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\route\\05 MVC\\DashboardMVC\\WebApplication8\\Views\\account\\Login.cshtml",
+              "RelativeDocumentMoniker": "WebApplication8\\Views\\account\\Login.cshtml",
+              "ToolTip": "E:\\route\\05 MVC\\DashboardMVC\\WebApplication8\\Views\\account\\Login.cshtml",
+              "RelativeToolTip": "WebApplication8\\Views\\account\\Login.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAALYAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-30T18:43:55.248Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "register.cshtml",
+              "DocumentMoniker": "E:\\route\\05 MVC\\DashboardMVC\\WebApplication8\\Views\\account\\register.cshtml",
+              "RelativeDocumentMoniker": "WebApplication8\\Views\\account\\register.cshtml",
+              "ToolTip": "E:\\route\\05 MVC\\DashboardMVC\\WebApplication8\\Views\\account\\register.cshtml",
+              "RelativeToolTip": "WebApplication8\\Views\\account\\register.cshtml",
+              "ViewState": "AgIAAIwBAAAAAAAAAAAkwK8BAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-30T15:27:27.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\route\\05 MVC\\DashboardMVC\\WebApplication8\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebApplication8\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\route\\05 MVC\\DashboardMVC\\WebApplication8\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebApplication8\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAAAH0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-30T15:19:50.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "accountController.cs",
+              "DocumentMoniker": "E:\\route\\05 MVC\\DashboardMVC\\WebApplication8\\Controllers\\accountController.cs",
+              "RelativeDocumentMoniker": "WebApplication8\\Controllers\\accountController.cs",
+              "ToolTip": "E:\\route\\05 MVC\\DashboardMVC\\WebApplication8\\Controllers\\accountController.cs",
+              "RelativeToolTip": "WebApplication8\\Controllers\\accountController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAGUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T01:46:21.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "E:\\route\\05 MVC\\DashboardMVC\\WebApplication8\\Startup.cs",
+              "RelativeDocumentMoniker": "WebApplication8\\Startup.cs",
+              "ToolTip": "E:\\route\\05 MVC\\DashboardMVC\\WebApplication8\\Startup.cs",
+              "RelativeToolTip": "WebApplication8\\Startup.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAAAE0AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T18:12:59.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "E:\\route\\05 MVC\\DashboardMVC\\WebApplication8\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "WebApplication8\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "E:\\route\\05 MVC\\DashboardMVC\\WebApplication8\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "WebApplication8\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-30T21:14:49.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\route\\05 MVC\\DashboardMVC\\WebApplication8\\Views\\Employee\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebApplication8\\Views\\Employee\\Create.cshtml",
+              "ToolTip": "E:\\route\\05 MVC\\DashboardMVC\\WebApplication8\\Views\\Employee\\Create.cshtml",
+              "RelativeToolTip": "WebApplication8\\Views\\Employee\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-30T21:14:58.941Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "IunitOfWork.cs",
-              "DocumentMoniker": "C:\\Users\\master\\source\\repos\\crudOp\\projectBLL\\interfaces\\IunitOfWork.cs",
-              "RelativeDocumentMoniker": "projectBLL\\interfaces\\IunitOfWork.cs",
-              "ToolTip": "C:\\Users\\master\\source\\repos\\crudOp\\projectBLL\\interfaces\\IunitOfWork.cs",
-              "RelativeToolTip": "projectBLL\\interfaces\\IunitOfWork.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T05:08:38.493Z",
-              "EditorCaption": ""
+              "Title": "createandEditDEPVIEW.cshtml",
+              "DocumentMoniker": "E:\\route\\05 MVC\\DashboardMVC\\WebApplication8\\Views\\Department\\createandEditDEPVIEW.cshtml",
+              "RelativeDocumentMoniker": "WebApplication8\\Views\\Department\\createandEditDEPVIEW.cshtml",
+              "ToolTip": "E:\\route\\05 MVC\\DashboardMVC\\WebApplication8\\Views\\Department\\createandEditDEPVIEW.cshtml",
+              "RelativeToolTip": "WebApplication8\\Views\\Department\\createandEditDEPVIEW.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-30T21:14:24.279Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "IemployeeRepo.cs",
-              "DocumentMoniker": "C:\\Users\\master\\source\\repos\\crudOp\\projectBLL\\interfaces\\IemployeeRepo.cs",
-              "RelativeDocumentMoniker": "projectBLL\\interfaces\\IemployeeRepo.cs",
-              "ToolTip": "C:\\Users\\master\\source\\repos\\crudOp\\projectBLL\\interfaces\\IemployeeRepo.cs",
-              "RelativeToolTip": "projectBLL\\interfaces\\IemployeeRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T20:56:20.798Z",
-              "EditorCaption": ""
+              "Title": "create.cshtml",
+              "DocumentMoniker": "E:\\route\\05 MVC\\DashboardMVC\\WebApplication8\\Views\\Department\\create.cshtml",
+              "RelativeDocumentMoniker": "WebApplication8\\Views\\Department\\create.cshtml",
+              "ToolTip": "E:\\route\\05 MVC\\DashboardMVC\\WebApplication8\\Views\\Department\\create.cshtml",
+              "RelativeToolTip": "WebApplication8\\Views\\Department\\create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-30T21:14:17.204Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "IDepartmentRepo.cs",
-              "DocumentMoniker": "C:\\Users\\master\\source\\repos\\crudOp\\projectBLL\\interfaces\\IDepartmentRepo.cs",
-              "RelativeDocumentMoniker": "projectBLL\\interfaces\\IDepartmentRepo.cs",
-              "ToolTip": "C:\\Users\\master\\source\\repos\\crudOp\\projectBLL\\interfaces\\IDepartmentRepo.cs",
-              "RelativeToolTip": "projectBLL\\interfaces\\IDepartmentRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAvwAoAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T04:17:02.877Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "employee.cs",
-              "DocumentMoniker": "C:\\Users\\master\\source\\repos\\crudOp\\data Access layer\\model\\employee.cs",
-              "RelativeDocumentMoniker": "data Access layer\\model\\employee.cs",
-              "ToolTip": "C:\\Users\\master\\source\\repos\\crudOp\\data Access layer\\model\\employee.cs",
-              "RelativeToolTip": "data Access layer\\model\\employee.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAAADIAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T20:23:59.699Z",
-              "EditorCaption": ""
+              "Title": "createAndeditPartialView.cshtml",
+              "DocumentMoniker": "E:\\route\\05 MVC\\DashboardMVC\\WebApplication8\\Views\\Employee\\createAndeditPartialView.cshtml",
+              "RelativeDocumentMoniker": "WebApplication8\\Views\\Employee\\createAndeditPartialView.cshtml",
+              "ToolTip": "E:\\route\\05 MVC\\DashboardMVC\\WebApplication8\\Views\\Employee\\createAndeditPartialView.cshtml",
+              "RelativeToolTip": "WebApplication8\\Views\\Employee\\createAndeditPartialView.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-30T21:13:56.51Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "Department.cs",
-              "DocumentMoniker": "C:\\Users\\master\\source\\repos\\crudOp\\data Access layer\\model\\Department.cs",
-              "RelativeDocumentMoniker": "data Access layer\\model\\Department.cs",
-              "ToolTip": "C:\\Users\\master\\source\\repos\\crudOp\\data Access layer\\model\\Department.cs",
-              "RelativeToolTip": "data Access layer\\model\\Department.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAMwBYAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T01:54:29.176Z",
-              "EditorCaption": ""
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\route\\05 MVC\\DashboardMVC\\WebApplication8\\Views\\Employee\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WebApplication8\\Views\\Employee\\Edit.cshtml",
+              "ToolTip": "E:\\route\\05 MVC\\DashboardMVC\\WebApplication8\\Views\\Employee\\Edit.cshtml",
+              "RelativeToolTip": "WebApplication8\\Views\\Employee\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-30T21:13:50.428Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\master\\source\\repos\\crudOp\\WebApplication8\\Views\\Employee\\Create.cshtml",
-              "RelativeDocumentMoniker": "WebApplication8\\Views\\Employee\\Create.cshtml",
-              "ToolTip": "C:\\Users\\master\\source\\repos\\crudOp\\WebApplication8\\Views\\Employee\\Create.cshtml",
-              "RelativeToolTip": "WebApplication8\\Views\\Employee\\Create.cshtml",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAgAAABpAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\route\\05 MVC\\DashboardMVC\\WebApplication8\\Views\\Employee\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication8\\Views\\Employee\\Index.cshtml",
+              "ToolTip": "E:\\route\\05 MVC\\DashboardMVC\\WebApplication8\\Views\\Employee\\Index.cshtml",
+              "RelativeToolTip": "WebApplication8\\Views\\Employee\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-05T05:52:40.686Z"
+              "WhenOpened": "2025-03-30T21:03:37.938Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "create.cshtml",
-              "DocumentMoniker": "C:\\Users\\master\\source\\repos\\crudOp\\WebApplication8\\Views\\Department\\create.cshtml",
-              "RelativeDocumentMoniker": "WebApplication8\\Views\\Department\\create.cshtml",
-              "ToolTip": "C:\\Users\\master\\source\\repos\\crudOp\\WebApplication8\\Views\\Department\\create.cshtml",
-              "RelativeToolTip": "WebApplication8\\Views\\Department\\create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABFAAAAAAAAAA==",
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "E:\\route\\05 MVC\\DashboardMVC\\WebApplication8\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "WebApplication8\\Views\\_ViewStart.cshtml",
+              "ToolTip": "E:\\route\\05 MVC\\DashboardMVC\\WebApplication8\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "WebApplication8\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-05T12:20:44.334Z"
+              "WhenOpened": "2025-03-30T20:57:38.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\route\\05 MVC\\DashboardMVC\\WebApplication8\\Views\\Department\\Details.cshtml",
+              "RelativeDocumentMoniker": "WebApplication8\\Views\\Department\\Details.cshtml",
+              "ToolTip": "E:\\route\\05 MVC\\DashboardMVC\\WebApplication8\\Views\\Department\\Details.cshtml",
+              "RelativeToolTip": "WebApplication8\\Views\\Department\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-30T19:33:44.298Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
-              "Title": "createandEditDEPVIEW.cshtml",
-              "DocumentMoniker": "C:\\Users\\master\\source\\repos\\crudOp\\WebApplication8\\Views\\Department\\createandEditDEPVIEW.cshtml",
-              "RelativeDocumentMoniker": "WebApplication8\\Views\\Department\\createandEditDEPVIEW.cshtml",
-              "ToolTip": "C:\\Users\\master\\source\\repos\\crudOp\\WebApplication8\\Views\\Department\\createandEditDEPVIEW.cshtml",
-              "RelativeToolTip": "WebApplication8\\Views\\Department\\createandEditDEPVIEW.cshtml",
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "E:\\route\\05 MVC\\DashboardMVC\\WebApplication8\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "WebApplication8\\Views\\_ViewImports.cshtml",
+              "ToolTip": "E:\\route\\05 MVC\\DashboardMVC\\WebApplication8\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "WebApplication8\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-30T20:57:39.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\route\\05 MVC\\DashboardMVC\\WebApplication8\\Views\\Employee\\Details.cshtml",
+              "RelativeDocumentMoniker": "WebApplication8\\Views\\Employee\\Details.cshtml",
+              "ToolTip": "E:\\route\\05 MVC\\DashboardMVC\\WebApplication8\\Views\\Employee\\Details.cshtml",
+              "RelativeToolTip": "WebApplication8\\Views\\Employee\\Details.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-05T12:19:28.043Z"
+              "WhenOpened": "2025-03-30T19:33:28.144Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "employeeProfile.cs",
-              "DocumentMoniker": "C:\\Users\\master\\source\\repos\\crudOp\\WebApplication8\\mappingProfile\\employeeProfile.cs",
-              "RelativeDocumentMoniker": "WebApplication8\\mappingProfile\\employeeProfile.cs",
-              "ToolTip": "C:\\Users\\master\\source\\repos\\crudOp\\WebApplication8\\mappingProfile\\employeeProfile.cs",
-              "RelativeToolTip": "WebApplication8\\mappingProfile\\employeeProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABBAAAAAAAAAA==",
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "E:\\route\\05 MVC\\DashboardMVC\\WebApplication8\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "WebApplication8\\Controllers\\EmployeeController.cs",
+              "ToolTip": "E:\\route\\05 MVC\\DashboardMVC\\WebApplication8\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "WebApplication8\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T14:10:45.519Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "_buttonsPartailView.cshtml",
-              "DocumentMoniker": "C:\\Users\\master\\source\\repos\\crudOp\\WebApplication8\\Views\\Shared\\_buttonsPartailView.cshtml",
-              "RelativeDocumentMoniker": "WebApplication8\\Views\\Shared\\_buttonsPartailView.cshtml",
-              "ToolTip": "C:\\Users\\master\\source\\repos\\crudOp\\WebApplication8\\Views\\Shared\\_buttonsPartailView.cshtml",
-              "RelativeToolTip": "WebApplication8\\Views\\Shared\\_buttonsPartailView.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-05T11:24:13.023Z"
+              "WhenOpened": "2025-03-30T20:51:07.22Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\master\\source\\repos\\crudOp\\WebApplication8\\Views\\Department\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebApplication8\\Views\\Department\\Index.cshtml",
-              "ToolTip": "C:\\Users\\master\\source\\repos\\crudOp\\WebApplication8\\Views\\Department\\Index.cshtml",
-              "RelativeToolTip": "WebApplication8\\Views\\Department\\Index.cshtml",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAAEAAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-24T15:55:10.836Z"
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "E:\\route\\05 MVC\\DashboardMVC\\WebApplication8\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "WebApplication8\\Controllers\\DepartmentController.cs",
+              "ToolTip": "E:\\route\\05 MVC\\DashboardMVC\\WebApplication8\\Controllers\\DepartmentController.cs",
+              "RelativeToolTip": "WebApplication8\\Controllers\\DepartmentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T20:50:12.666Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 22,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\master\\source\\repos\\crudOp\\WebApplication8\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "WebApplication8\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\master\\source\\repos\\crudOp\\WebApplication8\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "WebApplication8\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-02T02:45:45.074Z"
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "E:\\route\\05 MVC\\DashboardMVC\\WebApplication8\\Models\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "WebApplication8\\Models\\RegisterViewModel.cs",
+              "ToolTip": "E:\\route\\05 MVC\\DashboardMVC\\WebApplication8\\Models\\RegisterViewModel.cs",
+              "RelativeToolTip": "WebApplication8\\Models\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAABgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T17:15:38.539Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 23,
-              "Title": "Error.cshtml",
-              "DocumentMoniker": "C:\\Users\\master\\source\\repos\\crudOp\\WebApplication8\\Views\\Shared\\Error.cshtml",
-              "RelativeDocumentMoniker": "WebApplication8\\Views\\Shared\\Error.cshtml",
-              "ToolTip": "C:\\Users\\master\\source\\repos\\crudOp\\WebApplication8\\Views\\Shared\\Error.cshtml",
-              "RelativeToolTip": "WebApplication8\\Views\\Shared\\Error.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-25T06:53:22.203Z"
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "E:\\route\\05 MVC\\DashboardMVC\\WebApplication8\\Models\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "WebApplication8\\Models\\LoginViewModel.cs",
+              "ToolTip": "E:\\route\\05 MVC\\DashboardMVC\\WebApplication8\\Models\\LoginViewModel.cs",
+              "RelativeToolTip": "WebApplication8\\Models\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T18:48:10.763Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\master\\source\\repos\\crudOp\\WebApplication8\\Views\\Department\\Edit.cshtml",
-              "RelativeDocumentMoniker": "WebApplication8\\Views\\Department\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\master\\source\\repos\\crudOp\\WebApplication8\\Views\\Department\\Edit.cshtml",
-              "RelativeToolTip": "WebApplication8\\Views\\Department\\Edit.cshtml",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-05T12:18:15.031Z"
+              "DocumentIndex": 21,
+              "Title": "employeeViewModel.cs",
+              "DocumentMoniker": "E:\\route\\05 MVC\\DashboardMVC\\WebApplication8\\Models\\employeeViewModel.cs",
+              "RelativeDocumentMoniker": "WebApplication8\\Models\\employeeViewModel.cs",
+              "ToolTip": "E:\\route\\05 MVC\\DashboardMVC\\WebApplication8\\Models\\employeeViewModel.cs",
+              "RelativeToolTip": "WebApplication8\\Models\\employeeViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T17:36:05.054Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 24,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\master\\source\\repos\\crudOp\\WebApplication8\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "WebApplication8\\Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\master\\source\\repos\\crudOp\\WebApplication8\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "WebApplication8\\Views\\_ViewStart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-01T19:26:11.02Z"
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "E:\\route\\05 MVC\\DashboardMVC\\WebApplication8\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "WebApplication8\\Models\\ErrorViewModel.cs",
+              "ToolTip": "E:\\route\\05 MVC\\DashboardMVC\\WebApplication8\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "WebApplication8\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T20:23:11.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20250330180849_customUser.cs",
+              "DocumentMoniker": "E:\\route\\05 MVC\\DashboardMVC\\data Access layer\\Migrations\\20250330180849_customUser.cs",
+              "RelativeDocumentMoniker": "data Access layer\\Migrations\\20250330180849_customUser.cs",
+              "ToolTip": "E:\\route\\05 MVC\\DashboardMVC\\data Access layer\\Migrations\\20250330180849_customUser.cs",
+              "RelativeToolTip": "data Access layer\\Migrations\\20250330180849_customUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T18:08:49.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "appUser.cs",
+              "DocumentMoniker": "E:\\route\\05 MVC\\DashboardMVC\\data Access layer\\model\\appUser.cs",
+              "RelativeDocumentMoniker": "data Access layer\\model\\appUser.cs",
+              "ToolTip": "E:\\route\\05 MVC\\DashboardMVC\\data Access layer\\model\\appUser.cs",
+              "RelativeToolTip": "data Access layer\\model\\appUser.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAkwBEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T17:42:24.906Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 26,
               "Title": "mvcAppDbcontext.cs",
-              "DocumentMoniker": "C:\\Users\\master\\source\\repos\\crudOp\\data Access layer\\context\\mvcAppDbcontext.cs",
+              "DocumentMoniker": "E:\\route\\05 MVC\\DashboardMVC\\data Access layer\\context\\mvcAppDbcontext.cs",
               "RelativeDocumentMoniker": "data Access layer\\context\\mvcAppDbcontext.cs",
-              "ToolTip": "C:\\Users\\master\\source\\repos\\crudOp\\data Access layer\\context\\mvcAppDbcontext.cs",
+              "ToolTip": "E:\\route\\05 MVC\\DashboardMVC\\data Access layer\\context\\mvcAppDbcontext.cs",
               "RelativeToolTip": "data Access layer\\context\\mvcAppDbcontext.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAMwBoAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABAAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-01T19:26:26.297Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Microsoft.NET.EolTargetFrameworks.targets",
-              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.EolTargetFrameworks.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.EolTargetFrameworks.targets",
-              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.EolTargetFrameworks.targets",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.EolTargetFrameworks.targets",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAqwB8AAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-02-28T03:04:48.228Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\master\\source\\repos\\crudOp\\WebApplication8\\Program.cs",
-              "RelativeDocumentMoniker": "WebApplication8\\Program.cs",
-              "ToolTip": "C:\\Users\\master\\source\\repos\\crudOp\\WebApplication8\\Program.cs",
-              "RelativeToolTip": "WebApplication8\\Program.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAMwBAAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T00:42:11.705Z"
+              "WhenOpened": "2025-03-30T01:33:01.748Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 28,
-              "Title": "DepartmentViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\master\\source\\repos\\crudOp\\WebApplication8\\Models\\DepartmentViewModel.cs",
-              "RelativeDocumentMoniker": "WebApplication8\\Models\\DepartmentViewModel.cs",
-              "ToolTip": "C:\\Users\\master\\source\\repos\\crudOp\\WebApplication8\\Models\\DepartmentViewModel.cs",
-              "RelativeToolTip": "WebApplication8\\Models\\DepartmentViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABXAAAAAAAAAA==",
+              "Title": "_buttonsPartailView.cshtml",
+              "DocumentMoniker": "E:\\route\\05 MVC\\DashboardMVC\\WebApplication8\\Views\\Shared\\_buttonsPartailView.cshtml",
+              "RelativeDocumentMoniker": "WebApplication8\\Views\\Shared\\_buttonsPartailView.cshtml",
+              "ToolTip": "E:\\route\\05 MVC\\DashboardMVC\\WebApplication8\\Views\\Shared\\_buttonsPartailView.cshtml",
+              "RelativeToolTip": "WebApplication8\\Views\\Shared\\_buttonsPartailView.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-30T15:21:12.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "20250330014223_create identity.cs",
+              "DocumentMoniker": "E:\\route\\05 MVC\\DashboardMVC\\data Access layer\\Migrations\\20250330014223_create identity.cs",
+              "RelativeDocumentMoniker": "data Access layer\\Migrations\\20250330014223_create identity.cs",
+              "ToolTip": "E:\\route\\05 MVC\\DashboardMVC\\data Access layer\\Migrations\\20250330014223_create identity.cs",
+              "RelativeToolTip": "data Access layer\\Migrations\\20250330014223_create identity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T13:22:23.626Z"
+              "WhenOpened": "2025-03-30T01:42:24.12Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 30,
-              "Title": "EmployeeRepo.cs",
-              "DocumentMoniker": "C:\\Users\\master\\source\\repos\\crudOp\\projectBLL\\repo\\EmployeeRepo.cs",
-              "RelativeDocumentMoniker": "projectBLL\\repo\\EmployeeRepo.cs",
-              "ToolTip": "C:\\Users\\master\\source\\repos\\crudOp\\projectBLL\\repo\\EmployeeRepo.cs",
-              "RelativeToolTip": "projectBLL\\repo\\EmployeeRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAByAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T21:52:58.141Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\master\\source\\repos\\crudOp\\WebApplication8\\Views\\Employee\\Details.cshtml",
-              "RelativeDocumentMoniker": "WebApplication8\\Views\\Employee\\Details.cshtml",
-              "ToolTip": "C:\\Users\\master\\source\\repos\\crudOp\\WebApplication8\\Views\\Employee\\Details.cshtml",
-              "RelativeToolTip": "WebApplication8\\Views\\Employee\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAABaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-05T06:39:09.374Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\master\\source\\repos\\crudOp\\WebApplication8\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "WebApplication8\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\master\\source\\repos\\crudOp\\WebApplication8\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "WebApplication8\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-27T23:33:51.672Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "projectBLL.csproj",
-              "DocumentMoniker": "C:\\Users\\master\\source\\repos\\crudOp\\projectBLL\\projectBLL.csproj",
-              "RelativeDocumentMoniker": "projectBLL\\projectBLL.csproj",
-              "ToolTip": "C:\\Users\\master\\source\\repos\\crudOp\\projectBLL\\projectBLL.csproj",
-              "RelativeToolTip": "projectBLL\\projectBLL.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Title": "data Access layer.csproj",
+              "DocumentMoniker": "E:\\route\\05 MVC\\DashboardMVC\\data Access layer\\data Access layer.csproj",
+              "RelativeDocumentMoniker": "data Access layer\\data Access layer.csproj",
+              "ToolTip": "E:\\route\\05 MVC\\DashboardMVC\\data Access layer\\data Access layer.csproj",
+              "RelativeToolTip": "data Access layer\\data Access layer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-27T04:01:16.889Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "WebApplication8.csproj",
-              "DocumentMoniker": "C:\\Users\\master\\source\\repos\\crudOp\\WebApplication8\\WebApplication8.csproj",
-              "RelativeDocumentMoniker": "WebApplication8\\WebApplication8.csproj",
-              "ToolTip": "C:\\Users\\master\\source\\repos\\crudOp\\WebApplication8\\WebApplication8.csproj",
-              "RelativeToolTip": "WebApplication8\\WebApplication8.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-27T22:57:03.031Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\master\\source\\repos\\crudOp\\WebApplication8\\Views\\Department\\Details.cshtml",
-              "RelativeDocumentMoniker": "WebApplication8\\Views\\Department\\Details.cshtml",
-              "ToolTip": "C:\\Users\\master\\source\\repos\\crudOp\\WebApplication8\\Views\\Department\\Details.cshtml",
-              "RelativeToolTip": "WebApplication8\\Views\\Department\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-22T15:38:21.156Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\master\\source\\repos\\crudOp\\WebApplication8\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "WebApplication8\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "C:\\Users\\master\\source\\repos\\crudOp\\WebApplication8\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "WebApplication8\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-28T00:06:20.785Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "DepartmentRepo.cs",
-              "DocumentMoniker": "C:\\Users\\master\\source\\repos\\crudOp\\projectBLL\\repo\\DepartmentRepo.cs",
-              "RelativeDocumentMoniker": "projectBLL\\repo\\DepartmentRepo.cs",
-              "ToolTip": "C:\\Users\\master\\source\\repos\\crudOp\\projectBLL\\repo\\DepartmentRepo.cs",
-              "RelativeToolTip": "projectBLL\\repo\\DepartmentRepo.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAABBwBMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T04:25:16.853Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\master\\source\\repos\\crudOp\\WebApplication8\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "WebApplication8\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\master\\source\\repos\\crudOp\\WebApplication8\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "WebApplication8\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-22T15:10:43.071Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\master\\source\\repos\\crudOp\\WebApplication8\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "WebApplication8\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\master\\source\\repos\\crudOp\\WebApplication8\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "WebApplication8\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T02:50:04.481Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\master\\source\\repos\\crudOp\\WebApplication8\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebApplication8\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\master\\source\\repos\\crudOp\\WebApplication8\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "WebApplication8\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-28T00:05:29.133Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "20250306023713_initEMP.cs",
-              "DocumentMoniker": "C:\\Users\\master\\source\\repos\\crudOp\\data Access layer\\Migrations\\20250306023713_initEMP.cs",
-              "RelativeDocumentMoniker": "data Access layer\\Migrations\\20250306023713_initEMP.cs",
-              "ToolTip": "C:\\Users\\master\\source\\repos\\crudOp\\data Access layer\\Migrations\\20250306023713_initEMP.cs",
-              "RelativeToolTip": "data Access layer\\Migrations\\20250306023713_initEMP.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T02:37:13.962Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "20250305125043_init.cs",
-              "DocumentMoniker": "C:\\Users\\master\\source\\repos\\crudOp\\data Access layer\\Migrations\\20250305125043_init.cs",
-              "RelativeDocumentMoniker": "data Access layer\\Migrations\\20250305125043_init.cs",
-              "ToolTip": "C:\\Users\\master\\source\\repos\\crudOp\\data Access layer\\Migrations\\20250305125043_init.cs",
-              "RelativeToolTip": "data Access layer\\Migrations\\20250305125043_init.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T12:50:44.376Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "20250305124720_add-rel.cs",
-              "DocumentMoniker": "C:\\Users\\master\\source\\repos\\crudOp\\data Access layer\\Migrations\\20250305124720_add-rel.cs",
-              "RelativeDocumentMoniker": "data Access layer\\Migrations\\20250305124720_add-rel.cs",
-              "ToolTip": "C:\\Users\\master\\source\\repos\\crudOp\\data Access layer\\Migrations\\20250305124720_add-rel.cs",
-              "RelativeToolTip": "data Access layer\\Migrations\\20250305124720_add-rel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T12:47:20.996Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "20250302204814_addemployee.cs",
-              "DocumentMoniker": "C:\\Users\\master\\source\\repos\\crudOp\\data Access layer\\Migrations\\20250302204814_addemployee.cs",
-              "RelativeDocumentMoniker": "data Access layer\\Migrations\\20250302204814_addemployee.cs",
-              "ToolTip": "C:\\Users\\master\\source\\repos\\crudOp\\data Access layer\\Migrations\\20250302204814_addemployee.cs",
-              "RelativeToolTip": "data Access layer\\Migrations\\20250302204814_addemployee.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T20:48:15.257Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "WebApplication8",
-              "DocumentMoniker": "C:\\Users\\master\\source\\repos\\crudOp\\WebApplication8\\WebApplication8.csproj",
-              "RelativeDocumentMoniker": "WebApplication8\\WebApplication8.csproj",
-              "ToolTip": "C:\\Users\\master\\source\\repos\\crudOp\\WebApplication8\\WebApplication8.csproj",
-              "RelativeToolTip": "WebApplication8\\WebApplication8.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-05T02:07:27.589Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\master\\source\\repos\\crudOp\\WebApplication8\\appsettings.json",
-              "RelativeDocumentMoniker": "WebApplication8\\appsettings.json",
-              "ToolTip": "C:\\Users\\master\\source\\repos\\crudOp\\WebApplication8\\appsettings.json",
-              "RelativeToolTip": "WebApplication8\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-27T18:14:20.832Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\master\\source\\repos\\crudOp\\projectBLL\\Class1.cs",
-              "RelativeDocumentMoniker": "projectBLL\\Class1.cs",
-              "ToolTip": "C:\\Users\\master\\source\\repos\\crudOp\\projectBLL\\Class1.cs",
-              "RelativeToolTip": "projectBLL\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T02:59:57.052Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "index.html",
-              "DocumentMoniker": "E:\\route\\Html.Css.Js\\week8\\crud\\index.html",
-              "ToolTip": "E:\\route\\Html.Css.Js\\week8\\crud\\index.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-02-28T00:57:53.49Z"
+              "WhenOpened": "2025-03-30T01:30:56.087Z"
             }
           ]
         }

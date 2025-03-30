@@ -28,3 +28,19 @@ C:\Users\master\source\repos\crudOp\data Access layer\obj\Debug\net5.0\refint\da
 C:\Users\master\source\repos\crudOp\data Access layer\obj\Debug\net5.0\data Access layer.pdb
 C:\Users\master\source\repos\crudOp\data Access layer\obj\Debug\net5.0\data Access layer.genruntimeconfig.cache
 C:\Users\master\source\repos\crudOp\data Access layer\obj\Debug\net5.0\ref\data Access layer.dll
+E:\route\05 MVC\DashboardMVC\data Access layer\bin\Debug\net5.0\data Access layer.deps.json
+E:\route\05 MVC\DashboardMVC\data Access layer\bin\Debug\net5.0\data Access layer.runtimeconfig.json
+E:\route\05 MVC\DashboardMVC\data Access layer\bin\Debug\net5.0\data Access layer.runtimeconfig.dev.json
+E:\route\05 MVC\DashboardMVC\data Access layer\bin\Debug\net5.0\data Access layer.dll
+E:\route\05 MVC\DashboardMVC\data Access layer\bin\Debug\net5.0\data Access layer.pdb
+E:\route\05 MVC\DashboardMVC\data Access layer\obj\Debug\net5.0\data Access layer.csproj.AssemblyReference.cache
+E:\route\05 MVC\DashboardMVC\data Access layer\obj\Debug\net5.0\data Access layer.GeneratedMSBuildEditorConfig.editorconfig
+E:\route\05 MVC\DashboardMVC\data Access layer\obj\Debug\net5.0\data Access layer.AssemblyInfoInputs.cache
+E:\route\05 MVC\DashboardMVC\data Access layer\obj\Debug\net5.0\data Access layer.AssemblyInfo.cs
+E:\route\05 MVC\DashboardMVC\data Access layer\obj\Debug\net5.0\data Access layer.csproj.CoreCompileInputs.cache
+E:\route\05 MVC\DashboardMVC\data Access layer\obj\Debug\net5.0\data Access layer.sourcelink.json
+E:\route\05 MVC\DashboardMVC\data Access layer\obj\Debug\net5.0\data Access layer.dll
+E:\route\05 MVC\DashboardMVC\data Access layer\obj\Debug\net5.0\refint\data Access layer.dll
+E:\route\05 MVC\DashboardMVC\data Access layer\obj\Debug\net5.0\data Access layer.pdb
+E:\route\05 MVC\DashboardMVC\data Access layer\obj\Debug\net5.0\data Access layer.genruntimeconfig.cache
+E:\route\05 MVC\DashboardMVC\data Access layer\obj\Debug\net5.0\ref\data Access layer.dll

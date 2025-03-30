@@ -14,6 +14,9 @@ using Microsoft.Extensions.Options;
 using projectBLL.repo;
 using projectBLL.interfaces;
 using WebApplication8.mappingProfile;
+using data_Access_layer.model;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Authentication.Cookies;
 
 namespace WebApplication8
 {
@@ -36,7 +39,14 @@ namespace WebApplication8
             // ...existing code...
             services.AddScoped<IunitOfWork, UnitOfWork>();
             services.AddAutoMapper(m => m.AddProfile(new employeeProfile()));
+            services.AddAuthentication();
+            services.AddIdentity<appUser, IdentityRole>(Options =>
+            {
+             
+            }
 
+            ).AddEntityFrameworkStores<mvcAppDbcontext>().AddDefaultTokenProviders();
+            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme);
 
         }
 
@@ -58,14 +68,14 @@ namespace WebApplication8
             app.UseStaticFiles();
 
             app.UseRouting();
-
+            app.UseAuthentication();
             app.UseAuthorization();
-
+            
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Department}/{action=Index}/{id?}");
+                    pattern: "{controller=employee}/{action=index}/{id?}");
             });
         }
     }

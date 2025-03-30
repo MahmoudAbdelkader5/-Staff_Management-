@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace projectBLL.interfaces
 {
-   public interface IDepartmentRepo:IgenericRepo<Department>
+   public interface IDepartmentRepo:IGenericRepo<Department>
     {
 
        

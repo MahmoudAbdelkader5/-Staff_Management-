@@ -2,6 +2,9 @@
 @{
     ViewData["Title"] = "Department Detail";
 }
+@{
+    Layout = "_Layout";
+}
 
 <div class="form-group">
     <label asp-for="code"></label>
@@ -19,4 +22,7 @@
     <label asp-for="dateCreation"></label>
     @Html.TextBoxFor(m => m.dateCreation, "{0:yyyy-MM-dd}", new { @class = "form-control mb-3", type = "date", @readonly = "readonly" })
     @Html.ValidationMessageFor(m => m.dateCreation, "", new { @class = "text-danger" })
+</div>
+<div class="col-12 text-center">
+    <a class="btn btn-secondary" asp-action="Index">Cancel</a>
 </div>

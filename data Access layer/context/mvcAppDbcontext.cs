@@ -7,12 +7,14 @@ using System.Threading.Tasks;
 using data_Access_layer.model;
 using System.Xml;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
 
 namespace data_Access_layer.context
 {
 
-   public class mvcAppDbcontext:DbContext
+   public class mvcAppDbcontext:IdentityDbContext<appUser>
     {
         //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         //{
@@ -20,7 +22,7 @@ namespace data_Access_layer.context
         //}
         public DbSet<Department> Departments { get; set; }
         public DbSet<Employee> Employees { get; set; }
-
+      
 
         public mvcAppDbcontext(DbContextOptions<mvcAppDbcontext> options) : base(options)
         {

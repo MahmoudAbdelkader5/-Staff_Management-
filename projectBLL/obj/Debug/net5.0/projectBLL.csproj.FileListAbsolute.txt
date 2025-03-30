@@ -28,3 +28,19 @@ C:\Users\master\source\repos\crudOp\projectBLL\obj\Debug\net5.0\projectBLL.dll
 C:\Users\master\source\repos\crudOp\projectBLL\obj\Debug\net5.0\refint\projectBLL.dll
 C:\Users\master\source\repos\crudOp\projectBLL\obj\Debug\net5.0\projectBLL.pdb
 C:\Users\master\source\repos\crudOp\projectBLL\obj\Debug\net5.0\ref\projectBLL.dll
+E:\route\05 MVC\DashboardMVC\projectBLL\bin\Debug\net5.0\projectBLL.deps.json
+E:\route\05 MVC\DashboardMVC\projectBLL\bin\Debug\net5.0\projectBLL.dll
+E:\route\05 MVC\DashboardMVC\projectBLL\bin\Debug\net5.0\projectBLL.pdb
+E:\route\05 MVC\DashboardMVC\projectBLL\bin\Debug\net5.0\data Access layer.dll
+E:\route\05 MVC\DashboardMVC\projectBLL\bin\Debug\net5.0\data Access layer.pdb
+E:\route\05 MVC\DashboardMVC\projectBLL\obj\Debug\net5.0\projectBLL.csproj.AssemblyReference.cache
+E:\route\05 MVC\DashboardMVC\projectBLL\obj\Debug\net5.0\projectBLL.GeneratedMSBuildEditorConfig.editorconfig
+E:\route\05 MVC\DashboardMVC\projectBLL\obj\Debug\net5.0\projectBLL.AssemblyInfoInputs.cache
+E:\route\05 MVC\DashboardMVC\projectBLL\obj\Debug\net5.0\projectBLL.AssemblyInfo.cs
+E:\route\05 MVC\DashboardMVC\projectBLL\obj\Debug\net5.0\projectBLL.csproj.CoreCompileInputs.cache
+E:\route\05 MVC\DashboardMVC\projectBLL\obj\Debug\net5.0\projectBLL.sourcelink.json
+E:\route\05 MVC\DashboardMVC\projectBLL\obj\Debug\net5.0\projectBLL.csproj.Up2Date
+E:\route\05 MVC\DashboardMVC\projectBLL\obj\Debug\net5.0\projectBLL.dll
+E:\route\05 MVC\DashboardMVC\projectBLL\obj\Debug\net5.0\refint\projectBLL.dll
+E:\route\05 MVC\DashboardMVC\projectBLL\obj\Debug\net5.0\projectBLL.pdb
+E:\route\05 MVC\DashboardMVC\projectBLL\obj\Debug\net5.0\ref\projectBLL.dll

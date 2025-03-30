@@ -1,34 +1,37 @@
 ﻿using AutoMapper;
 using data_Access_layer.model;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using projectBLL.interfaces;
 using System;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using WebApplication8.Models;
 using WebApplication8.StaticFile;
+[Authorize]
 
 public class EmployeeController : Controller
 {
-    private readonly IunitOfWork iunitOfWork;
+    private readonly IunitOfWork _unitOfWork;
     public IMapper Mapper { get; }
 
-    public EmployeeController(IunitOfWork iunitOfWork, IMapper mapper)
+    public EmployeeController(IunitOfWork unitOfWork, IMapper mapper)
     {
-        this.iunitOfWork = iunitOfWork ?? throw new ArgumentNullException(nameof(iunitOfWork));
+        _unitOfWork = unitOfWork ?? throw new ArgumentNullException(nameof(unitOfWork));
         Mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
     }
 
-    public IActionResult Index(string search)
+    public async Task<IActionResult> Index(string search)
     {
         IEnumerable<Employee> employees;
 
         if (string.IsNullOrEmpty(search))
         {
-            employees = iunitOfWork.employeeRepo.GetAll();
+            employees = await _unitOfWork.employeeRepo.GetAllAsync();
         }
         else
         {
-            employees = iunitOfWork.employeeRepo.SearchEmployees(search);
+            employees =  _unitOfWork.employeeRepo.SearchEmployees(search);  
         }
 
         if (employees == null)
@@ -42,35 +45,37 @@ public class EmployeeController : Controller
     }
 
     [HttpGet]
-    public IActionResult Create()
+    public async Task<IActionResult> Create()
     {
-        ViewBag.depart = iunitOfWork.departmentRepo.GetAll();
+        ViewBag.depart = await _unitOfWork.departmentRepo.GetAllAsync(); 
         return View();
     }
 
     [HttpPost]
     [ValidateAntiForgeryToken]
-    public IActionResult Create(employeeViewModel employee)
+    public async Task<IActionResult> Create(employeeViewModel employee)
     {
         if (ModelState.IsValid)
         {
-            employee.Image=Helper.uploadfile(employee.Imagefile, "images");
+            employee.Image = Helper.uploadfile(employee.Imagefile, "images");
             var mappedEmployee = Mapper.Map<Employee>(employee);
-            iunitOfWork.employeeRepo.add(mappedEmployee);
-            var res = iunitOfWork.Save();
+            await _unitOfWork.employeeRepo.AddAsync(mappedEmployee); // Await async method  
+            var res = await _unitOfWork.Save();  
+
             if (res > 0)
             {
                 TempData["Message"] = $"Employee successfully created: {employee.Name}";
                 return RedirectToAction(nameof(Index));
             }
         }
-        ViewBag.depart = iunitOfWork.departmentRepo.GetAll();
+
+        ViewBag.depart = await _unitOfWork.departmentRepo.GetAllAsync(); 
         return View(employee);
     }
 
-    public IActionResult Details(int id)
+    public async Task<IActionResult> Details(int id)
     {
-        var employee = iunitOfWork.employeeRepo.getbyid(id);
+        var employee = await _unitOfWork.employeeRepo.GetByIdAsync(id); // Ensure this is awaited  
         if (employee == null)
         {
             return NotFound();
@@ -80,58 +85,54 @@ public class EmployeeController : Controller
     }
 
     [HttpGet]
-    public IActionResult Edit(int? id)
+    public async Task<IActionResult> Edit(int? id)
     {
         if (!id.HasValue)
         {
             return BadRequest();
         }
 
-        var employee = iunitOfWork.employeeRepo.getbyid(id.Value);
+        var employee = await _unitOfWork.employeeRepo.GetByIdAsync(id.Value); // Ensure this is awaited  
         if (employee == null)
         {
             return NotFound();
         }
 
         var mappedEmployee = Mapper.Map<employeeViewModel>(employee);
-        ViewBag.depart = iunitOfWork.departmentRepo.GetAll();
+        ViewBag.depart = await _unitOfWork.departmentRepo.GetAllAsync(); 
         return View(mappedEmployee);
     }
 
     [HttpPost]
     [ValidateAntiForgeryToken]
-    public IActionResult Edit(employeeViewModel employee)
+    public async Task<IActionResult> Edit(employeeViewModel employee)
     {
         if (ModelState.IsValid)
         {
             employee.Image = Helper.uploadfile(employee.Imagefile, "images");
             var mappedEmployee = Mapper.Map<Employee>(employee);
-            iunitOfWork.employeeRepo.update(mappedEmployee);
-              iunitOfWork.Save();
+             _unitOfWork.employeeRepo.UpdateAsync(mappedEmployee); // Await async method  
+            await _unitOfWork.Save(); // Ensure SaveAsync is awaited  
             return RedirectToAction(nameof(Index));
         }
-        ViewBag.depart = iunitOfWork.departmentRepo.GetAll();
+
+        ViewBag.depart = await _unitOfWork.departmentRepo.GetAllAsync(); // Make sure to await async call  
         return View(employee);
     }
 
     [HttpPost]
     [ValidateAntiForgeryToken]
-    public IActionResult Delete(employeeViewModel employeeView, int id)
+    public async Task<IActionResult> Delete(int id)
     {
-        // Retrieve the employee by ID  
-        var employee = iunitOfWork.employeeRepo.getbyid(id);
-
-        // Check if the employee exists  
+        var employee = await _unitOfWork.employeeRepo.GetByIdAsync(id); // Ensure this is awaited  
         if (employee == null)
         {
             return NotFound();
         }
 
         var mappedEmployee = Mapper.Map<Employee>(employee);
-
-        iunitOfWork.employeeRepo.delete(mappedEmployee);
-
-        int res = iunitOfWork.Save();
+         _unitOfWork.employeeRepo.DeleteAsync(mappedEmployee); // Await async method  
+        var res = await _unitOfWork.Save(); // Ensure SaveAsync is awaited  
 
         if (res > 0 && mappedEmployee.Image != null)
         {

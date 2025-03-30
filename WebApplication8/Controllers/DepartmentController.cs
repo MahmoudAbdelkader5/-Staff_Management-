@@ -1,24 +1,27 @@
-﻿using System;
-using Microsoft.AspNetCore.Mvc;
-using projectBLL.interfaces;
+﻿using Microsoft.AspNetCore.Mvc;
+using System.Threading.Tasks;
 using data_Access_layer.model;
+using projectBLL.interfaces;
+using projectBLL.repo;
+using Microsoft.AspNetCore.Authorization;
 
 namespace WebApplication8.Controllers
 {
+    [Authorize]
     public class DepartmentController : Controller
     {
-        private readonly IunitOfWork iunitOfWork;
+        private readonly IunitOfWork _unitOfWork;
 
-        public DepartmentController(IunitOfWork iunitOfWork)
+        public DepartmentController(IunitOfWork unitOfWork)
         {
-            this.iunitOfWork = iunitOfWork;
+            _unitOfWork = unitOfWork;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
             ViewData["mess"] = "Hello from our department view data";
             ViewBag.message = "Hello from ViewBag";
-            var departments = iunitOfWork.departmentRepo.GetAll();
+            var departments = await _unitOfWork.departmentRepo.GetAllAsync();
             return View(departments);
         }
 
@@ -30,31 +33,29 @@ namespace WebApplication8.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Create(Department department)
+        public async Task<IActionResult> Create(Department department)
         {
             if (ModelState.IsValid)
             {
-                iunitOfWork.departmentRepo.add(department);
-                int res = iunitOfWork.Save();
-                if (res > 0)
-                {
-                    TempData["message"] = $"Department created successfully: {department.name}";
-                    return RedirectToAction(nameof(Index));
-                }
-                ModelState.AddModelError("", "Failed to create department.");
+                await _unitOfWork.departmentRepo.AddAsync(department);
+                await _unitOfWork.Save();
+
+                TempData["message"] = $"Department created successfully: {department.name}";
+                return RedirectToAction(nameof(Index));
             }
+
             return View(department);
         }
 
         [HttpGet]
-        public IActionResult Edit(int id)
+        public async Task<IActionResult> Edit(int id)
         {
             if (id <= 0)
             {
                 return BadRequest();
             }
 
-            var department = iunitOfWork.departmentRepo.getbyid(id);
+            var department = await _unitOfWork.departmentRepo.GetByIdAsync(id);
             if (department == null)
             {
                 return NotFound();
@@ -65,21 +66,21 @@ namespace WebApplication8.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Edit(Department department)
+        public async Task<IActionResult> Edit(Department department)
         {
             if (ModelState.IsValid)
             {
-                iunitOfWork.departmentRepo.update(department);
-                iunitOfWork.Save();
+                _unitOfWork.departmentRepo.UpdateAsync(department);
+                await _unitOfWork.Save();
                 return RedirectToAction(nameof(Index));
             }
+
             return View(department);
         }
 
-        // GET: Details of Department  
-        public IActionResult Details(int id)
+        public async Task<IActionResult> Details(int id)
         {
-            var department = iunitOfWork.departmentRepo.getbyid(id);
+            var department = await _unitOfWork.departmentRepo.GetByIdAsync(id);
             if (department == null)
             {
                 return NotFound();
@@ -89,21 +90,21 @@ namespace WebApplication8.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Delete(int id)
+        public async Task<IActionResult> Delete(int id)
         {
             if (id <= 0)
             {
                 return BadRequest();
             }
 
-            var department = iunitOfWork.departmentRepo.getbyid(id);
+            var department = await _unitOfWork.departmentRepo.GetByIdAsync(id);
             if (department == null)
             {
                 return NotFound();
             }
 
-            iunitOfWork.departmentRepo.delete(department);
-            iunitOfWork.Save();
+            _unitOfWork.departmentRepo.DeleteAsync(department);
+            await _unitOfWork.Save();
 
             return RedirectToAction(nameof(Index));
         }

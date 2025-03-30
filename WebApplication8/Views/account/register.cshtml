@@ -1,0 +1,432 @@
+﻿@model RegisterViewModel
+@{
+    ViewData["Title"] = "Register";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #4e73df;
+            --primary-dark: #2e59d9;
+            --secondary-color: #f8f9fc;
+            --text-color: #5a5c69;
+            --danger-color: #e74a3b;
+            --success-color: #1cc88a;
+            --border-radius: 0.5rem;
+            --box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15);
+            --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+        }
+
+        body {
+            background: linear-gradient(135deg, #f8f9fc 0%, #e9ecef 100%);
+            color: var(--text-color);
+            font-family: 'Nunito', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            padding: 2rem 0;
+        }
+
+        .card {
+            border: none;
+            border-radius: var(--border-radius);
+            overflow: hidden;
+            transition: var(--transition);
+        }
+
+            .card.shadow-lg {
+                box-shadow: var(--box-shadow);
+            }
+
+            .card:hover {
+                box-shadow: 0 0.5rem 2rem rgba(58, 59, 69, 0.3);
+            }
+
+        .card-header {
+            border-bottom: none;
+            padding: 2rem;
+            background: linear-gradient(to right, var(--primary-color), var(--primary-dark));
+            position: relative;
+            overflow: hidden;
+        }
+
+            .card-header::before {
+                content: '';
+                position: absolute;
+                top: -50%;
+                right: -50%;
+                width: 200%;
+                height: 200%;
+                background: radial-gradient(circle, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0) 60%);
+                transform: rotate(30deg);
+            }
+
+            .card-header h3 {
+                margin: 0;
+                font-weight: 700;
+                font-size: 1.75rem;
+                position: relative;
+                text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            }
+
+        .card-body {
+            padding: 2.5rem;
+            background-color: #fff;
+        }
+
+        .form-floating {
+            position: relative;
+            margin-bottom: 1.5rem;
+        }
+
+            .form-floating > label {
+                color: #6c757d;
+                padding: 1rem 0.75rem;
+                transition: var(--transition);
+            }
+
+            .form-floating > .form-control:focus ~ label,
+            .form-floating > .form-control:not(:placeholder-shown) ~ label {
+                transform: scale(0.85) translateY(-0.5rem) translateX(0.15rem);
+                color: var(--primary-color);
+                opacity: 1;
+                background: white;
+                padding: 0 0.5rem;
+                height: auto;
+            }
+
+        .form-control {
+            height: calc(3.5rem + 2px);
+            padding: 1rem 0.75rem;
+            border: 1px solid #d1d3e2;
+            border-radius: var(--border-radius);
+            transition: var(--transition);
+            font-size: 1rem;
+        }
+
+            .form-control:focus {
+                border-color: var(--primary-color);
+                box-shadow: 0 0 0 0.25rem rgba(78, 115, 223, 0.25);
+            }
+
+        .btn-primary {
+            background-color: var(--primary-color);
+            border-color: var(--primary-color);
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            padding: 0.8rem 1.5rem;
+            font-size: 1.1rem;
+            border-radius: var(--border-radius);
+            transition: var(--transition);
+            position: relative;
+            overflow: hidden;
+        }
+
+            .btn-primary:hover, .btn-primary:focus {
+                background-color: var(--primary-dark);
+                border-color: var(--primary-dark);
+                transform: translateY(-2px);
+                box-shadow: 0 0.5rem 1.5rem rgba(78, 115, 223, 0.4);
+            }
+
+            .btn-primary::after {
+                content: '';
+                position: absolute;
+                top: -50%;
+                right: -50%;
+                width: 200%;
+                height: 200%;
+                background: radial-gradient(circle, rgba(255,255,255,0.3) 0%, rgba(255,255,255,0) 60%);
+                transform: rotate(30deg);
+                opacity: 0;
+                transition: var(--transition);
+            }
+
+            .btn-primary:hover::after {
+                opacity: 1;
+                right: 0;
+                top: 0;
+            }
+
+        .text-danger {
+            font-size: 0.85rem;
+            margin-top: 0.25rem;
+            display: block;
+        }
+
+        .form-text {
+            font-size: 0.8rem;
+            color: #6c757d;
+            margin-top: 0.25rem;
+        }
+
+        a {
+            color: var(--primary-color);
+            transition: color 0.2s ease;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+            a:hover {
+                color: var(--primary-dark);
+                text-decoration: underline;
+            }
+
+        .form-check-input {
+            width: 1.2em;
+            height: 1.2em;
+            margin-top: 0.2em;
+            border: 2px solid #d1d3e2;
+            transition: var(--transition);
+        }
+
+            .form-check-input:checked {
+                background-color: var(--primary-color);
+                border-color: var(--primary-color);
+            }
+
+            .form-check-input:focus {
+                box-shadow: 0 0 0 0.25rem rgba(78, 115, 223, 0.25);
+            }
+
+        .form-check-label {
+            margin-left: 0.5rem;
+            user-select: none;
+        }
+
+        /* Modal Styles */
+        .modal-content {
+            border: none;
+            border-radius: var(--border-radius);
+            overflow: hidden;
+            box-shadow: var(--box-shadow);
+        }
+
+        .modal-header {
+            background-color: var(--primary-color);
+            color: white;
+            border-bottom: none;
+        }
+
+        .modal-title {
+            font-weight: 600;
+        }
+
+        .btn-close {
+            filter: invert(1);
+        }
+
+       
+
+        .card {
+            animation: fadeInUp 0.6s ease-out;
+        }
+
+        /* Responsive Adjustments */
+      
+        /* Password strength indicator */
+        .password-strength {
+            height: 4px;
+            background: #e9ecef;
+            margin-top: 0.5rem;
+            border-radius: 2px;
+            overflow: hidden;
+        }
+
+        .password-strength-bar {
+            height: 100%;
+            width: 0;
+            background: #e74a3b;
+            transition: width 0.3s ease;
+        }
+
+        /* Terms link */
+        .terms-link {
+            color: var(--primary-color);
+            cursor: pointer;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="card shadow-lg">
+                    <div class="card-header bg-primary text-white">
+                        <h3 class="text-center mb-0"><i class="fas fa-user-plus me-2"></i>Create New Account</h3>
+                    </div>
+                    <div class="card-body">
+                        <form asp-action="Register" method="post" novalidate class="needs-validation">
+                            @Html.AntiForgeryToken()
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-floating mb-3">
+                                        <input asp-for="FirstName" class="form-control" placeholder=" " required />
+                                        <label asp-for="FirstName">First Name</label>
+                                        <span asp-validation-for="FirstName" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating mb-3">
+                                        <input asp-for="LastName" class="form-control" placeholder=" " required />
+                                        <label asp-for="LastName">Last Name</label>
+                                        <span asp-validation-for="LastName" class="text-danger"></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-floating mb-3">
+                                <input asp-for="Email" class="form-control" placeholder=" " required />
+                                <label asp-for="Email">Email address</label>
+                                <span asp-validation-for="Email" class="text-danger"></span>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-floating mb-3">
+                                        <input asp-for="Password" type="password" class="form-control" placeholder=" " required
+                                               oninput="checkPasswordStrength(this.value)" />
+                                        <label asp-for="Password">Password</label>
+                                        <span asp-validation-for="Password" class="text-danger"></span>
+                                        <div class="form-text">Minimum 8 characters</div>
+                                        <div class="password-strength">
+                                            <div class="password-strength-bar" id="passwordStrengthBar"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating mb-3">
+                                        <input asp-for="ConfirmPassword" type="password" class="form-control" placeholder=" " required />
+                                        <label asp-for="ConfirmPassword">Confirm Password</label>
+                                        <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-check mb-4">
+                                <input asp-for="IsAgree" class="form-check-input" required />
+                                <label asp-for="IsAgree" class="form-check-label">
+                                    I agree to the <a href="#" class="terms-link" data-bs-toggle="modal" data-bs-target="#termsModal">Terms and Conditions</a>
+                                </label>
+                                <span asp-validation-for="IsAgree" class="text-danger d-block"></span>
+                            </div>
+
+                            <div class="d-grid gap-2">
+                                <button type="submit" class="btn btn-primary btn-lg">
+                                    <i class="fas fa-user-plus me-2"></i>Register
+                                </button>
+                            </div>
+
+                            <div class="text-center mt-4">
+                                <p class="mb-0">Already have an account? <a asp-action="Login" class="fw-bold">Sign in here</a></p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Terms Modal -->
+    <div class="modal fade" id="termsModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title"><i class="fas fa-file-contract me-2"></i>Terms and Conditions</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>1. Acceptance of Terms</h6>
+                    <p>By registering an account, you agree to be bound by these Terms and Conditions. If you do not agree to all the terms, please do not use our service.</p>
+
+                    <h6>2. Account Registration</h6>
+                    <p>You must provide accurate and complete information when creating an account. You are responsible for maintaining the confidentiality of your account credentials.</p>
+
+                    <h6>3. User Responsibilities</h6>
+                    <p>You agree not to use the service for any unlawful purpose or in any way that might harm, damage, or disparage any other party.</p>
+
+                    <h6>4. Privacy Policy</h6>
+                    <p>Your personal information will be handled in accordance with our Privacy Policy, which explains how we collect, use, and protect your data.</p>
+
+                    <h6>5. Service Modifications</h6>
+                    <p>We reserve the right to modify or discontinue the service at any time without notice. We shall not be liable to you or any third party for any modification or discontinuance.</p>
+
+                    <h6>6. Limitation of Liability</h6>
+                    <p>In no event shall we be liable for any direct, indirect, incidental, special, or consequential damages resulting from your use of or inability to use the service.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">I Understand</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Password strength indicator
+        function checkPasswordStrength(password) {
+            const strengthBar = document.getElementById('passwordStrengthBar');
+            let strength = 0;
+
+            if (password.length >= 8) strength += 1;
+            if (password.match(/[a-z]/) && password.match(/[A-Z]/)) strength += 1;
+            if (password.match(/\d/)) strength += 1;
+            if (password.match(/[^a-zA-Z\d]/)) strength += 1;
+
+            // Update strength bar
+            switch(strength) {
+                case 0:
+                    strengthBar.style.width = '0%';
+                    strengthBar.style.backgroundColor = '#e74a3b';
+                    break;
+                case 1:
+                    strengthBar.style.width = '25%';
+                    strengthBar.style.backgroundColor = '#e74a3b';
+                    break;
+                case 2:
+                    strengthBar.style.width = '50%';
+                    strengthBar.style.backgroundColor = '#f6c23e';
+                    break;
+                case 3:
+                    strengthBar.style.width = '75%';
+                    strengthBar.style.backgroundColor = '#1cc88a';
+                    break;
+                case 4:
+                    strengthBar.style.width = '100%';
+                    strengthBar.style.backgroundColor = '#1cc88a';
+                    break;
+            }
+        }
+
+        // Form validation
+        (function() {
+            'use strict';
+
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            const forms = document.querySelectorAll('.needs-validation');
+
+            // Loop over them and prevent submission
+            Array.from(forms).forEach(form => {
+                form.addEventListener('submit', event => {
+                    if (!form.checkValidity()) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                    }
+
+                    form.classList.add('was-validated');
+                }, false);
+            });
+        })();
+    </script>
+</body>
+</html>
