@@ -5,11 +5,12 @@ using Microsoft.AspNetCore.Mvc;
 using projectBLL.interfaces;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using WebApplication8.Models;
 using WebApplication8.StaticFile;
-[Authorize]
 
+[Authorize]
 public class EmployeeController : Controller
 {
     private readonly IunitOfWork _unitOfWork;
@@ -31,10 +32,10 @@ public class EmployeeController : Controller
         }
         else
         {
-            employees =  _unitOfWork.employeeRepo.SearchEmployees(search);  
+            employees = _unitOfWork.employeeRepo.SearchEmployees(search);
         }
 
-        if (employees == null)
+        if (employees == null || !employees.Any())
         {
             TempData["Message"] = "No employees found.";
             return View(new List<employeeViewModel>());
@@ -47,7 +48,7 @@ public class EmployeeController : Controller
     [HttpGet]
     public async Task<IActionResult> Create()
     {
-        ViewBag.depart = await _unitOfWork.departmentRepo.GetAllAsync(); 
+        ViewBag.depart = await _unitOfWork.departmentRepo.GetAllAsync();
         return View();
     }
 
@@ -55,12 +56,22 @@ public class EmployeeController : Controller
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> Create(employeeViewModel employee)
     {
-        if (ModelState.IsValid)
+        if (!ModelState.IsValid)
         {
-            employee.Image = Helper.uploadfile(employee.Imagefile, "images");
+            ViewBag.depart = await _unitOfWork.departmentRepo.GetAllAsync();
+            return View(employee);
+        }
+
+        try
+        {
+            if (employee.Imagefile != null)
+            {
+                employee.Image = Helper.uploadfile(employee.Imagefile, "images");
+            }
+
             var mappedEmployee = Mapper.Map<Employee>(employee);
-            await _unitOfWork.employeeRepo.AddAsync(mappedEmployee); // Await async method  
-            var res = await _unitOfWork.Save();  
+            await _unitOfWork.employeeRepo.AddAsync(mappedEmployee);
+            var res = await _unitOfWork.Save();
 
             if (res > 0)
             {
@@ -68,14 +79,18 @@ public class EmployeeController : Controller
                 return RedirectToAction(nameof(Index));
             }
         }
+        catch (Exception ex)
+        {
+            ModelState.AddModelError("", "Error creating employee: " + ex.Message);
+        }
 
-        ViewBag.depart = await _unitOfWork.departmentRepo.GetAllAsync(); 
+        ViewBag.depart = await _unitOfWork.departmentRepo.GetAllAsync();
         return View(employee);
     }
 
     public async Task<IActionResult> Details(int id)
     {
-        var employee = await _unitOfWork.employeeRepo.GetByIdAsync(id); // Ensure this is awaited  
+        var employee = await _unitOfWork.employeeRepo.GetByIdAsync(id);
         if (employee == null)
         {
             return NotFound();
@@ -92,14 +107,14 @@ public class EmployeeController : Controller
             return BadRequest();
         }
 
-        var employee = await _unitOfWork.employeeRepo.GetByIdAsync(id.Value); // Ensure this is awaited  
+        var employee = await _unitOfWork.employeeRepo.GetByIdAsync(id.Value);
         if (employee == null)
         {
             return NotFound();
         }
 
         var mappedEmployee = Mapper.Map<employeeViewModel>(employee);
-        ViewBag.depart = await _unitOfWork.departmentRepo.GetAllAsync(); 
+        ViewBag.depart = await _unitOfWork.departmentRepo.GetAllAsync();
         return View(mappedEmployee);
     }
 
@@ -107,16 +122,32 @@ public class EmployeeController : Controller
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> Edit(employeeViewModel employee)
     {
-        if (ModelState.IsValid)
+        if (!ModelState.IsValid)
         {
-            employee.Image = Helper.uploadfile(employee.Imagefile, "images");
-            var mappedEmployee = Mapper.Map<Employee>(employee);
-             _unitOfWork.employeeRepo.UpdateAsync(mappedEmployee); // Await async method  
-            await _unitOfWork.Save(); // Ensure SaveAsync is awaited  
-            return RedirectToAction(nameof(Index));
+            ViewBag.depart = await _unitOfWork.departmentRepo.GetAllAsync();
+            return View(employee);
         }
 
-        ViewBag.depart = await _unitOfWork.departmentRepo.GetAllAsync(); // Make sure to await async call  
+        try
+        {
+            if (employee.Imagefile != null)
+            {
+                employee.Image = Helper.uploadfile(employee.Imagefile, "images");
+            }
+
+            var mappedEmployee = Mapper.Map<Employee>(employee);
+             _unitOfWork.employeeRepo.UpdateAsync(mappedEmployee);
+            await _unitOfWork.Save();
+
+            TempData["Message"] = $"Employee successfully updated: {employee.Name}";
+            return RedirectToAction(nameof(Index));
+        }
+        catch (Exception ex)
+        {
+            ModelState.AddModelError("", "Error updating employee: " + ex.Message);
+        }
+
+        ViewBag.depart = await _unitOfWork.departmentRepo.GetAllAsync();
         return View(employee);
     }
 
@@ -124,19 +155,27 @@ public class EmployeeController : Controller
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> Delete(int id)
     {
-        var employee = await _unitOfWork.employeeRepo.GetByIdAsync(id); // Ensure this is awaited  
+        var employee = await _unitOfWork.employeeRepo.GetByIdAsync(id);
         if (employee == null)
         {
             return NotFound();
         }
 
-        var mappedEmployee = Mapper.Map<Employee>(employee);
-         _unitOfWork.employeeRepo.DeleteAsync(mappedEmployee); // Await async method  
-        var res = await _unitOfWork.Save(); // Ensure SaveAsync is awaited  
-
-        if (res > 0 && mappedEmployee.Image != null)
+        try
         {
-            Helper.deletefile(mappedEmployee.Image, "images");
+            var mappedEmployee = Mapper.Map<Employee>(employee);
+            _unitOfWork.employeeRepo.DeleteAsync(mappedEmployee);
+            var res = await _unitOfWork.Save();
+
+            if (res > 0 && mappedEmployee.Image != null)
+            {
+                Helper.deletefile(mappedEmployee.Image, "images");
+                TempData["Message"] = $"Employee deleted: {employee.Name}";
+            }
+        }
+        catch (Exception ex)
+        {
+            ModelState.AddModelError("", "Error deleting employee: " + ex.Message);
         }
 
         return RedirectToAction(nameof(Index));

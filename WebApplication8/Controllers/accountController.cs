@@ -69,7 +69,7 @@ namespace WebApplication8.Controllers
                     if (passwordValid)
                     {
                         var loginres = await _signInManager.PasswordSignInAsync(
-                            user.UserName,  // Using UserName instead of the model
+                            user.UserName,  
                             userlogin.Password,
                             userlogin.RememberMe,
                             false);
@@ -97,6 +97,47 @@ namespace WebApplication8.Controllers
         {
             await _signInManager.SignOutAsync();
             return RedirectToAction("Login");
+        }
+
+        public IActionResult ForgotPassword()
+        {
+            return View();
+        }
+        [HttpPost]
+        public async Task<IActionResult> sendEmail(ForgotPasswordViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                // send email logic
+                var user = await _manager.FindByEmailAsync(model.Email);
+                if (user != null)
+                {
+                    // send email logic
+                    var email = new email()
+                    {
+                        to = model.Email,
+                        subject = "Reset Password",
+                        body = "Please click on the link to reset your password"
+                    };
+                    HelperClass.sentEmail.sendEmail(email);
+                    return RedirectToAction("checkInbox");
+
+                }
+                else
+                {
+                    ModelState.AddModelError(string.Empty, "Email does not exist");
+                }
+            }
+            else
+            {
+                return View("ForgotPassword", model);
+            }
+            return RedirectToAction("ForgotPassword");
+
+        }
+        public IActionResult checkInbox()
+        {
+            return View();
         }
     }
 }

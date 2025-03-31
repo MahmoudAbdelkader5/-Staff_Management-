@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Http;
 using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Security.Cryptography.X509Certificates;
 
 namespace WebApplication8.Models
 {
@@ -57,5 +58,6 @@ namespace WebApplication8.Models
 
         [Display(Name = "Department")]
         public virtual Department Department { get; set; }  // Added virtual for lazy loading
+       public string CurrentImage { get; set; }
     }
 }

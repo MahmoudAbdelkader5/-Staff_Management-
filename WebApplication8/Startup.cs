@@ -17,6 +17,7 @@ using WebApplication8.mappingProfile;
 using data_Access_layer.model;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using AutoMapper;
 
 namespace WebApplication8
 {
@@ -38,7 +39,7 @@ namespace WebApplication8
              });
             // ...existing code...
             services.AddScoped<IunitOfWork, UnitOfWork>();
-            services.AddAutoMapper(m => m.AddProfile(new employeeProfile()));
+            services.AddAutoMapper(m => m.AddProfiles(new List<Profile> { new employeeProfile(), new RoleProfile() }));
             services.AddAuthentication();
             services.AddIdentity<appUser, IdentityRole>(Options =>
             {
@@ -75,7 +76,7 @@ namespace WebApplication8
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=employee}/{action=index}/{id?}");
+                    pattern: "{controller=account}/{action=Login}/{id?}");
             });
         }
     }

@@ -1,0 +1,164 @@
+﻿@model IEnumerable<userViewModel>
+
+@{
+    ViewData["Title"] = "User Management";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Page Header -->
+<div class="d-flex flex-column flex-md-row justify-content-between align-items-md-center mb-4">
+    <div class="mb-3 mb-md-0">
+        <h1 class="h2 mb-1">
+            <i class="fas fa-users me-2 text-primary"></i>User Management
+        </h1>
+    </div>
+</div>
+
+<!-- Search and Filter Card -->
+<div class="card shadow-sm mb-4">
+    <div class="card-body">
+        <form asp-action="Index" method="get" class="row g-3">
+            <div class="col-md-8">
+                <div class="input-group">
+                    <span class="input-group-text bg-transparent">
+                        <i class="fas fa-search text-muted"></i>
+                    </span>
+                    <input type="search" class="form-control" placeholder="Search users..." name="search" value="@Context.Request.Query["search"]">
+                    <button class="btn btn-primary" type="submit">
+                        <i class="fas fa-filter me-1"></i>Filter
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- User Table Card -->
+<div class="card shadow-sm">
+    <div class="card-body p-0">
+        @if (Model != null && Model.Any())
+        {
+            <div class="table-responsive">
+                <table class="table table-hover mb-0">
+                    <thead class="table-light">
+                        <tr>
+                            <th class="ps-4">ID</th>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                            <th>Email</th>
+                            <th>Phone</th>
+                            <th>Roles</th>
+                            <th class="text-end pe-4">Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var user in Model)
+                        {
+                            <tr>
+                                <td class="ps-4 fw-semibold align-middle">@user.Id</td>
+                                <td class="align-middle">@user.FirstName</td>
+                                <td class="align-middle">@user.LastName</td>
+                                <td class="align-middle">@user.Email</td>
+                                <td class="align-middle">@user.PhoneNumber</td>
+                                <td class="align-middle">
+                                    @if (user.Roles != null && user.Roles.Any())
+                                    {
+                                        @string.Join(", ", user.Roles)
+                                    }
+                                    else
+                                    {
+                                        <span class="text-muted">No roles</span>
+                                    }
+                                </td>
+                                <td class="text-end pe-4 align-middle">
+                                    <div class="btn-group btn-group-sm" role="group">
+                                        <a asp-action="Details" asp-route-id="@user.Id"
+                                           class="btn btn-outline-primary" data-bs-toggle="tooltip" title="View Details">
+                                            <i class="fas fa-eye"></i>
+                                        </a>
+                                        <a asp-action="Edit" asp-route-id="@user.Id"
+                                           class="btn btn-outline-warning" data-bs-toggle="tooltip" title="Edit">
+                                            <i class="fas fa-edit"></i>
+                                        </a>
+                                        <form asp-action="Delete" asp-route-id="@user.Id" method="post" class="d-inline">
+                                            @Html.AntiForgeryToken()
+                                            <button type="submit" class="btn btn-outline-danger"
+                                                    data-bs-toggle="tooltip" title="Delete"
+                                                    onclick="return confirm('Are you sure you want to delete @user.FirstName @user.LastName?')">
+                                                <i class="fas fa-trash-alt"></i>
+                                            </button>
+                                        </form>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        }
+        else
+        {
+            <div class="text-center py-5">
+                <div class="mb-3">
+                    <i class="fas fa-user-slash fa-3x text-muted"></i>
+                </div>
+                <h5 class="text-muted">No users found</h5>
+                <p class="text-muted">Try adjusting your search or add a new user</p>
+                <a asp-action="Create" class="btn btn-primary mt-3">
+                    <i class="fas fa-plus-circle me-2"></i>Add User
+                </a>
+            </div>
+        }
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        // Flash message fade out
+        setTimeout(() => {
+            const flashMsg = document.getElementById('flashMessage');
+            if (flashMsg) {
+                flashMsg.classList.add('fade');
+                setTimeout(() => flashMsg.remove(), 150);
+            }
+        }, 5000);
+
+        // Enable tooltips
+        document.addEventListener('DOMContentLoaded', function() {
+            const tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+            tooltipTriggerList.map(function (tooltipTriggerEl) {
+                return new bootstrap.Tooltip(tooltipTriggerEl);
+            });
+        });
+    </script>
+}
+
+<style>
+    /* Table row hover effect */
+    .table-hover tbody tr {
+        transition: all 0.2s ease;
+    }
+
+        .table-hover tbody tr:hover {
+            background-color: rgba(0, 0, 0, 0.02);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        }
+
+    /* Badge styling */
+    .badge.rounded-pill {
+        padding: 0.35em 0.65em;
+        font-weight: 500;
+    }
+
+    /* Vertical alignment for table cells */
+    .table td.align-middle {
+        vertical-align: middle;
+    }
+
+    /* Action buttons spacing */
+    .btn-group-sm > .btn,
+    .btn-group-sm > .form-control,
+    .btn-group-sm > .input-group-text {
+        padding: 0.25rem 0.5rem;
+    }
+</style>

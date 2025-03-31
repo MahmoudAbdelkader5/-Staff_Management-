@@ -1,0 +1,36 @@
+﻿@model userViewModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Edit</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <form asp-action="Edit" method="post" class="p-4 border rounded bg-light" enctype="multipart/form-data">
+        <div class="form-group">
+            <label asp-for="FirstName"></label>
+            @Html.TextBoxFor(m => m.FirstName, new { @class = "form-control mb-3" })
+            @Html.ValidationMessageFor(m => m.FirstName, "", new { @class = "text-danger" })
+        </div>
+        <div class="form-group">
+            <label asp-for="LastName"></label>
+            @Html.TextBoxFor(m => m.LastName, new { @class = "form-control mb-3" })
+            @Html.ValidationMessageFor(m => m.LastName, "", new { @class = "text-danger" })
+        </div>
+        <div class="form-group">
+            <label asp-for="PhoneNumber"></label>
+            @Html.TextBoxFor(m => m.PhoneNumber, new { @class = "form-control mb-3" })
+            @Html.ValidationMessageFor(m => m.PhoneNumber, "", new { @class = "text-danger" })
+        </div>
+        <div class="col-12 text-center">
+            <button class="btn btn-primary" type="submit">Submit</button>
+            <a class="btn btn-secondary" asp-action="Index">Cancel</a>
+        </div>
+    </form>
+</body>
+</html>

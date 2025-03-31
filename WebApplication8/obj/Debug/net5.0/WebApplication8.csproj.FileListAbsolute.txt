@@ -507,3 +507,11 @@ E:\route\05 MVC\DashboardMVC\WebApplication8\bin\Debug\net5.0\Microsoft.Extensio
 E:\route\05 MVC\DashboardMVC\WebApplication8\obj\Debug\net5.0\Razor\Views\Shared\from.cshtml.g.cs
 E:\route\05 MVC\DashboardMVC\WebApplication8\obj\Debug\net5.0\Razor\Views\account\register.cshtml.g.cs
 E:\route\05 MVC\DashboardMVC\WebApplication8\obj\Debug\net5.0\Razor\Views\account\Login.cshtml.g.cs
+E:\route\05 MVC\DashboardMVC\WebApplication8\obj\Debug\net5.0\Razor\Views\account\ForgotPassword.cshtml.g.cs
+E:\route\05 MVC\DashboardMVC\WebApplication8\obj\Debug\net5.0\Razor\Views\User\Index.cshtml.g.cs
+E:\route\05 MVC\DashboardMVC\WebApplication8\obj\Debug\net5.0\Razor\Views\User\Details.cshtml.g.cs
+E:\route\05 MVC\DashboardMVC\WebApplication8\obj\Debug\net5.0\Razor\Views\User\Edit.cshtml.g.cs
+E:\route\05 MVC\DashboardMVC\WebApplication8\obj\Debug\net5.0\Razor\Views\Role\Index.cshtml.g.cs
+E:\route\05 MVC\DashboardMVC\WebApplication8\obj\Debug\net5.0\Razor\Views\Role\Create.cshtml.g.cs
+E:\route\05 MVC\DashboardMVC\WebApplication8\obj\Debug\net5.0\Razor\Views\Role\Details.cshtml.g.cs
+E:\route\05 MVC\DashboardMVC\WebApplication8\obj\Debug\net5.0\Razor\Views\Role\Edit.cshtml.g.cs

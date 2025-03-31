@@ -4,11 +4,13 @@ using WebApplication8.Models;
 
 namespace WebApplication8.mappingProfile
 {
-    public class employeeProfile :Profile
+    public class employeeProfile : Profile
     {
-       public employeeProfile()
+        public employeeProfile()
         {
-            CreateMap<employeeViewModel, Employee>().ReverseMap();
+            CreateMap<employeeViewModel, Employee>()
+                .ForMember(dest => dest.Image, opt => opt.MapFrom(src => src.Image))
+                .ReverseMap();
         }
     }
 }
